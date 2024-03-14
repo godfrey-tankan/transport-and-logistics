@@ -1,0 +1,2674 @@
+/*===========================================================
+
+Template Name: Max Logistics
+Author: Hastech
+Author URI: http://techprojectshub.netlify.app/
+Version: 1.0
+Description: This Website is created for Logistic supports
+    
+-------------------------------------------------------------
+    
+CSS INDEX
+=========
+
+    Base CSS or Common CSS are in reset.css
+
+
+  1. 	Start Header CSS
+	2. 	Start Main Slider CSS
+	3. 	Start Why Us CSS
+	4. 	start we are best
+	5. 	Start Get Quote Area
+	6. 	Start Counter Area
+	7. 	Start Transport Features Area
+	8. 	Start Client Says Area
+	9. 	Start From Our Blog Area
+	10. Start We Are Best At Area
+	11. Start Breadcrumd Area
+	12. start About Us Page Area
+	13. Start Blog Page Area
+	14. Start Footer CSS
+	15. Start Single Blog Page
+	16. Start Services Page
+	17. Start Faq Page Area
+	18. Start Faq-Accordion Page Area
+	19. Start Contact Page Area
+	20. Start 404 page Area
+	21. Start On Parking Page Area
+	22. Start 2nd Home page Area
+  23. start contact us page CSS
+  24. Start Responsive CSS
+
+
+==============================================*/
+
+
+/* ============================================
+1.               Start Header CSS
+===============================================*/
+
+.header_top {
+    margin: 7px 0;
+  }
+  .header_top_area {
+    background: #252b3f none repeat scroll 0 0;
+  }
+  .main_menu .navbar-default{
+    background: transparent;
+    border: none;
+  }
+  .header_bottom_area {
+    background: #e9eff2 none repeat scroll 0 0;
+  }
+  .header_top_menu {
+    margin: 8px 0;
+  }
+  .header_top_menu a {
+    border-right: 1px solid #fff;
+    color: #fff;
+    font-family: "Oxygen";
+    font-size: 12px;
+    padding: 0 14px;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .header_top_menu a:hover{
+    color: #017cc0;
+  }
+  .header_top_menu ul li:first-child a{
+    padding: 0 16px 0 0;
+    text-transform: uppercase;
+  }
+  .header_top_menu ul li:last-child a{
+    border-right: none;
+  }
+  .header_top_social i {
+    color: #959595;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    width: 40px;
+    font-size: 15px;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .header_top_social a:hover i{
+    color: #fff;
+  }
+  .header_top_social a:hover i.fa-twitter{
+    background: #55acee;
+  }
+  .header_top_social a:hover i.fa-facebook{
+    background: #3b5998;
+  }
+  .header_top_social a:hover i.fa-google-plus{
+    background: #e51c23;
+  }
+  .header_top_social a:hover i.fa-dribbble{
+    background: #EA4C89;
+  }
+  .header_top_social a:hover i.fa-linkedin{
+    background: #007BB6;
+  }
+  
+  
+  .header_logo {
+    margin: 44px 0;
+  }
+  .header_we_are > dl {
+    float: left;
+    margin-bottom: 0;
+    margin-right: 9px;
+    text-align: right;
+    width: 68%;
+  }
+  .header_we_are i {
+    line-height: 54px;
+    text-align: center;
+    width: 27%;
+    display: inline-block;
+  }
+  .header_we_are dt {
+    color: #666666;
+    font-family: "RobotoMedium";
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  .header_we_are dt, .header_we_are dd{
+    line-height: 28px;
+  }
+  .header_we_are dd, .header_we_are dd a {
+    color: #959595;
+  }
+  .header_we_are dd a:hover{
+    color: #017cc0;
+  }
+  
+  
+  .main_menu .navbar-default .navbar-nav{
+    width: 100%;
+  }
+  .main_menu .navbar-default .navbar-nav > li > a{
+    color: #252b3f;
+    font-family: "RobotoLight";
+    padding: 24px 38px;
+    text-transform: uppercase;
+    display: block;
+  }
+  .main_menu .nav.navbar-nav li:hover > a {
+    background: #f1f5f7;
+  }
+  .main_menu .nav.navbar-nav li.dropdown > a {
+    background: url("images/dropdown_bg.png") no-repeat scroll 90% center;
+  }
+  .main_menu .nav.navbar-nav li.dropdown:hover > a {
+    background: #f1f5f7 url("images/dropdown_bg.png") no-repeat scroll 90% center;
+  }
+  .main_menu .navbar-nav > li > .dropdown-menu{
+    top: 99%;
+    min-width: 200px;
+    background-color: #f1f5f7;
+    text-transform: uppercase;
+  }
+  .main_menu .navbar-nav > li > .dropdown-menu li:hover a{
+    background-color: #e9eff2;
+  }
+  .main_menu .dropdown-menu > li > a{
+    border-bottom: 1px solid #e4e4e4;
+    font-family: "RobotoLight";
+    padding: 10px 25px;
+  }
+  .main_menu .dropdown-menu > li:last-child > a{
+    border-bottom: none;
+  }
+  .main_menu .navbar-default .navbar-nav > li:last-child{
+    float: right;
+  }
+  .main_menu .navbar-default .navbar-nav > li:last-child > a{
+    background: #1874c1;
+    color: #fff;
+    font-family: 'RobotoMedium';
+  }
+  .main_menu .navbar-default .navbar-nav > li.active:last-child > a{
+    background-color: #0060b1;
+    color: #fff;
+  }
+  .main_menu .navbar-default .navbar-nav > li:last-child > a:hover{
+    background: #0060b1;
+  }
+  .main_menu .navbar-default .navbar-nav > li > a:hover{
+    background: #f1f5f7;
+  }
+  .main_menu .navbar {
+    margin: 0;
+  }
+  .main_menu .navbar-default .navbar-nav > li.active > a{
+    color: #252b3f;
+    background: #f1f5f7;
+  }
+  
+  
+  
+  /* ============================================
+                  End Header CSS
+  ===============================================*/
+  
+  
+  /* ============================================
+  2.              Start Main Slider CSS
+  ===============================================*/
+  
+  .main_slider_area {
+    position: relative;
+  }
+  
+  /* ============================================
+                  End Main Slider CSS
+  ===============================================*/
+  
+  /* ============================================
+  3.              Start Why Us CSS
+  ===============================================*/
+  .single_why_us {
+    position: relative;
+    z-index: 1;
+    background: #fff;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    padding: 30px;
+    overflow: hidden;
+  }
+  .single_why_hover {
+    background: rgb(48, 141, 199) none repeat scroll 0 0;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    opacity: 0;
+    left: 0;
+    top: 0;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  
+  }
+  .single_why_us:hover .single_why_hover{
+    opacity: 0.75;
+    animation-name: fadeInUp;
+    backface-visibility: visible !important;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+  }
+  .single_why_us h5 {
+    margin-top: 22px;
+    margin-bottom: 21px;
+  }
+  .single_why_us:hover h5, .single_why_us:hover  p{
+    color: #fff;
+  }
+  .single_why_us .icon_one{
+    display: inline-block;
+    width: 74px;
+    height: 114px;
+    background: url(images/logistic-service.png) no-repeat center center;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .single_why_us:hover .icon_one{
+    background: url(images/logistic-service-hover.png) no-repeat center center; ;
+  }
+  .single_why_us .icon_two{
+    display: inline-block;
+    width: 74px;
+    height: 114px;
+    background: url(images/warehousing.png) no-repeat center center; 
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .single_why_us:hover .icon_two{
+    background: url(images/warehousing-hover.png) no-repeat center center;
+  }
+  .single_why_us .icon_three{
+    display: inline-block;
+    width: 74px;
+    height: 114px;
+    background: url(images/customer-service.png) no-repeat center center; 
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .single_why_us:hover .icon_three{
+    background: url(images/customer-service-hover.png) no-repeat center center; ;
+  }
+  
+  /* ============================================
+                End Why Us CSS
+  ===============================================*/
+  
+  
+  /* ============================================
+  4.            start we are best
+  ===============================================*/
+  
+  .weare_best_left_service .single_weare_best > dl {
+    float: left;
+    text-align: right;
+  }
+  .weare_best_right_service .single_weare_best > dl {
+    float: right;
+    text-align: left;
+  }
+  .single_weare_best > dl {
+    margin-bottom: 0;
+    margin-right: 9px;
+    width: 68%;
+  }
+  .single_weare_best i {
+    line-height: 54px;
+    text-align: center;
+    width: 23%;
+    display: inline-block;
+  }
+  .single_weare_best dt {
+    color: #313131;
+    font-family: "RobotoMedium";
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+  }
+  .single_weare_best dt, .single_weare_best dd{
+    line-height: 25px;
+  }
+  .single_weare_best dd{
+    color: #959595;
+  }
+  .weare_best_area .section_title {
+    margin-bottom: 105px;
+  }
+  
+  
+  
+  /* ============================================
+                  End we are best
+  ===============================================*/
+  
+  
+  
+  /* ============================================
+  5.              Start Get Quote Area
+  ===============================================*/
+  
+  .get_quote_area {
+    background: rgba(0, 0, 0, 0) url("images/get-a-quote.jpg") no-repeat scroll 67% center / cover ;
+    color: #fff;
+    padding: 90px 0;
+  }
+  .get_quote_area .section_title > h4 {
+    color: #fff;
+  }
+  .get_quote_area .section_title > p {
+    color: #cdcdcd;
+  }
+  .get_quote_area .form-group select {
+    width: 100%;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    margin-bottom: 17px;
+    height: 43px;
+    font-family: "Open Sans",sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #959595;
+    text-indent: 2px;
+    border: 1px solid #ececec;
+  }
+  .get_quote_area .input-group {
+    width: 100%;
+  }
+  .get_quote_area .form-group input[type="text"] {
+    color: #959595;
+    font-family: "Open Sans",sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    height: 43px;
+    margin-bottom: 17px;
+    width: 100%;
+    text-indent: 17px;
+    border: 1px solid #ececec;
+  }
+  .get_quote_area .form-group input[type="submit"] {
+    margin-bottom: 0;
+  }
+  .get_quote_area .form-group.submit{
+    margin: 0;
+  }
+  .icon_arrow:after{
+    color: #959595;
+    content: "ï„‡";
+    font-family: "FontAwesome";
+    font-size: 14px;
+    line-height: 42px;
+    position: absolute;
+    right: 11%;
+    top: 0%;
+    z-index: 10;
+  }
+  .get_quote_area .form-group textarea{
+    border: 1px solid #ececec;
+    color: #959595;
+    height: 133px;
+    padding: 12px 20px;
+    width: 100%;
+    margin-bottom: 22px;
+  }
+  
+  
+  /* ============================================
+                End Get Quote Area
+  ===============================================*/
+  
+  
+  /* ============================================
+  6.              Start Counter Area
+  ===============================================*/
+  
+  .logistic_counter_area{
+    background: rgba(0, 0, 0, 0) url("images/counter-bg.jpg") no-repeat scroll center center / cover ;
+  }
+  .single-counter{
+    text-align: center;
+    padding: 90px 0;
+  }
+  .single-counter img{
+    display: inline-block;
+  }
+  .single-counter > h4 {
+    color: #222222;
+    font-size: 14px;
+    font-family: 'RobotoMedium';
+  }
+  .single-counter span{
+    color: #333333;
+    display: block;
+    font-family: "RobotoBold";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 22px;
+    margin-top: 36px;
+  }
+  
+  /* ============================================
+                End Counter Area
+  ===============================================*/
+  
+  
+  /* ============================================
+  7.            Start Transport Features Area
+  ===============================================*/
+  
+  .transport_features .section_title p {
+    color: #fff;
+  }
+  .transport_features_area {
+    background: rgba(0, 0, 0, 0) url("images/transport-features.jpg") no-repeat scroll 55% center / cover ;
+    overflow: hidden;
+  }
+  body#home_two .transport_features_area {
+    background: rgba(0, 0, 0, 0) url("images/transport-features-two.jpg") no-repeat scroll center center / cover ;
+    overflow: hidden;
+  }
+  .transport_features_area .panel-title span {
+    background: #2f364f url("images/transport-features-open.png") no-repeat scroll center center;
+    padding: 30px 8px;
+    float: left;
+    height: 50px;
+    width: 50px;
+  }
+  .transport_features_area .panel-title a.collapsed span {
+    background-image: url("images/transport-features-lock.png");
+  }
+  .transport_features {
+    min-height: 800px;
+    padding-bottom: 120px;
+    padding-top: 135px;
+  }
+  .transport_features_area .panel-default > .panel-heading {
+    padding: 0;
+    background: none;
+    border-radius: 0px;
+  }
+  .transport_features_area .panel-default .panel-body p{
+    color: #999;
+  }
+  .transport_features_area .panel-default > .panel-heading .panel-title a {
+    background: #252b3f none repeat scroll 0 0;
+    border-bottom: 1px solid #dee8ec;
+    color: #fff;
+    display: block;
+    line-height: 60px;
+    text-indent: 20px;
+    border-bottom: none;
+  }
+  .transport_features_area .panel-group .panel{
+    border: medium none;
+    border-radius: 0;
+    box-shadow: none;
+  }
+  .transport_features_area .panel-group .panel-body, .transport_features_area .panel-collapse, .transport_features_area .panel-default > .panel-heading + .panel-collapse > .panel-body, .transport_features_area .panel-group .panel-heading + .panel-collapse > .panel-body, .transport_features_area .panel-group .panel-heading + .panel-collapse > .list-group{
+    background-color: #1874c1;
+    border: medium none;
+    color: #fff;
+  }
+  .transport_features_area .panel-group .panel-heading + .panel-collapse > .panel-body{
+    border-bottom: none;
+  }
+  
+  /* ============================================
+            End Transport Features Area
+  ===============================================*/
+  
+  
+  /* ============================================
+  8.        Start Client Says Area
+  ===============================================*/
+  
+  .all_testimonial_area {
+    background: rgba(0, 0, 0, 0) url("images/client-says-bg.jpg") no-repeat scroll center center / cover ;
+  }
+  body#home_two .all_testimonial_area {
+    background: rgba(0, 0, 0, 0) url("images/client-says-bg-2.jpg") no-repeat scroll center center / cover ;
+  }
+  .all_testimonial_area .section_title > p {
+    color: #fff;
+  }
+  .all_testimonial_container{
+      position: relative;
+  }
+  .testimonial_area .section_heading{
+      margin-bottom: 60px;
+  }
+  .single_testi_slider{
+      text-align: center;
+  }
+  .testi_studient_txt p{
+    color: #fff;
+    font-family: "RobotoLightItalic";
+    font-size: 18px;
+    font-style: italic;
+    line-height: 32px;
+    margin-bottom: 55px;
+  }
+  .testi_studient_txt h3{
+    color: #fff;
+    font-family: "RobotoMedium";
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+  .testi_studient_txt span{
+    color: #fff;
+    display: block;
+    font-family: "OxygenBold";
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  .testi_slider_nav .testi_prev{
+    position: absolute;
+    left: 0;
+    top: 80%;
+    z-index: 9;
+  }
+  .testi_slider_nav .testi_next{
+    position: absolute;
+    right: 0;
+    top: 80%;
+    z-index: 9;
+  }
+  .testi_slider_nav .testi_prev, .testi_slider_nav .testi_next{
+      line-height: 51px;
+      width: 51px;
+      text-align: center;
+      color: #fff;
+      font-size: 26px;
+      cursor: pointer;
+  }
+  .all_testimonial_area .section_title {
+    margin-bottom: 39px;
+  }
+  
+  /* ============================================
+              End Client Says Area
+  ===============================================*/
+  
+  
+  /* ============================================
+  9.          Start From Our Blog Area
+  ===============================================*/
+  
+  .single_blog_comment ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .single_blog_comment li a {
+    border: 1px solid #4690cd;
+    border-radius: 5px;
+    display: inline-block;
+    line-height: 35px;
+    margin-bottom: 13px;
+    text-align: center;
+    width: 35px;
+  }
+  .single_blog_comment li figure{
+    margin: 0;
+    position: relative;
+  }
+  .single_blog_comment li figure figcaption{
+    background: #1874c1 none repeat scroll 0 0;
+    border-radius: 5px;
+    color: #fff;
+    left: 2px;
+    padding: 1px 20px;
+    position: absolute;
+    top: 2px;
+    width: 158px;
+    opacity: 0;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .single_blog_comment li figure:hover figcaption{
+    opacity: 1;
+    left: -1px;
+    top: -1px;
+    z-index: 9;
+  }
+  .single_blog_comment figcaption img {
+    margin-left: -15px;
+  }
+  .single_blog_comment figcaption span {
+    margin-left: 20px;
+  }
+  .single_blog_info a {
+    color: #222222;
+    display: block;
+    text-align: left;
+    font-size: 16px;
+  }
+  .single_blog_info a:hover{
+    color: #017cc0;
+  }
+  .single_blog_info > img {
+    margin-bottom: 25px;
+  }
+  .single_blog_info > span {
+    color: #959595;
+    display: block;
+    margin-top: 8px;
+    text-align: left;
+    font-size: 13px;
+  }
+  .single_blog_info span i {
+    color: #999999;
+    font-size: 15px;
+    margin-right: 17px;
+  }
+  .single_blog_info > p {
+    border-top: 1px solid #ecf0f1;
+    color: #959595;
+    margin-top: 20px;
+    padding-top: 20px;
+    text-align: left;
+  }
+  
+  
+  
+  /* ============================================
+              End From Our Blog Area
+  ===============================================*/
+  
+  
+  
+  /* ============================================
+  10.         Start We Are Best At Area
+  ===============================================*/
+  
+  .weare_best_at_area {
+    background: rgba(0, 0, 0, 0) url("images/we-are-best-1.jpg") no-repeat scroll center center;
+    background-size: cover;
+  }
+  
+  /* ============================================
+              End We Are Best At Area
+  ===============================================*/
+  
+  
+  /* ============================================
+  11.         Start Breadcrumd Area
+  ===============================================*/
+  
+  
+  .breadcrumb_main_area{
+    background: url(images/breadcrumb-one.jpg) no-repeat center center / cover #000000;
+    position: relative;
+  }
+  .breadcrumb_bg {
+    background: rgba(51, 51, 51, 0.75) none repeat scroll 0 0;
+    padding: 14px 0;
+  }
+  .breadcrumb_main_area .breadcrumb {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border-radius: 0;
+    margin: 0;
+    padding: 0;
+  }
+  .breadcrumb_bg h6 {
+    color: #cfcfcf;
+    font-family: 'Oxygen';
+    font-size: 12px;
+  }
+  .breadcrumb_main_area .breadcrumb a {
+    color: #fff;
+    font-size: 12px;
+    padding: 6px;
+    text-transform: uppercase;
+  }
+  .breadcrumb_main_area .breadcrumb li:last-child a{
+    padding-right: 0;
+  }
+  .breadcrumb_main_area .breadcrumb a:hover{
+    color: #017cc0;
+  }
+  .breadcrumb_main h3 {
+    color: #fff;
+    font-family: "RobotoMedium";
+    font-size: 36px;
+    line-height: 30px;
+    margin: 96px 0 32px;
+  }
+  
+  
+  /* ============================================
+              End Breadcrumd Area
+  ===============================================*/
+  
+  
+  /* ============================================
+  12.         start About Us Page Area
+  ===============================================*/
+  
+  
+  .single_who.first > figure {
+    background: rgba(0, 0, 0, 0) url("images/our_vision_bg.jpg") no-repeat scroll 0 0;
+    margin: 0;
+  }
+  .single_who.second > figure{
+    background: rgba(0, 0, 0, 0) url("images/our_mision_bg.jpg") no-repeat scroll 0 0;
+    margin: 0;
+  }
+  .single_who figure h5, .single_who figure p{
+    color: #fff;
+  }
+  .single_who figure h5 {
+    margin-bottom: 4px;
+    padding-left: 30px;
+    padding-top: 37px;
+  }
+  .single_who figure p {
+    margin: 0;
+    padding: 25px 30px 30px;
+  }
+  .why_choose_us_area .section_title h4 {
+    padding-bottom: 20px;
+    margin: 0;
+  }
+  .why_choose_us_area .section_title p{
+    margin: 35px 0;
+  }
+  
+  .about_client_area .client_border {
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+  }
+  .about_client_area .client_border:nth-child(3), .about_client_area .client_border:nth-child(6){
+    border-right: none;
+  }
+  .about_client_area .client_border:nth-child(4), .about_client_area .client_border:nth-child(5), .about_client_area .client_border:nth-child(6){
+    border-bottom: none;
+  }
+  .about_client_area .client_box > a {
+    -webkit-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .about_client_area .client_box > a:hover{
+    -webkit-filter: grayscale(0%);
+    -o-filter: grayscale(0%);
+    filter: grayscale(0%);
+  }
+  .about_client_area .section_title{
+    margin-bottom: 63px;
+  }
+  
+  body#about_us .all_testimonial_area {
+    background: rgba(0, 0, 0, 0) url("images/about-client-says-bg.jpg") no-repeat scroll center center / cover ;
+  }
+  body#about_us .single_weare_best_at > dl, body#home_two .single_weare_best_at > dl {
+    float: right;
+    margin-bottom: 0;
+    margin-right: 9px;
+    text-align: left;
+    width: 73%;
+    color: #fff;
+  }
+  body#about_us .single_weare_best_at > dl > dt, body#home_two .single_weare_best_at > dl > dt {
+    font-family: "RobotoMedium";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 18px;
+    margin-bottom: 15px;
+  }
+  body#about_us .single_weare_best_at i, body#home_two .single_weare_best_at i {
+    display: inline-block;
+    line-height: 54px;
+    text-align: center;
+    width: 21%;
+  }
+  body#about_us .single_weare_best_at, body#home_two .single_weare_best_at {
+    margin-bottom: 35px;
+  }
+  .single_on_parking figure{
+    position: relative;
+  }
+  .single_on_parking figcaption {
+    background: #fff none repeat scroll 0 0;
+    bottom: calc(0% - 25px);
+    margin: 0 20px;
+    position: absolute;
+    width: 85%;
+    padding: 0 23px;
+    text-align: left; 
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .single_on_parking figure:hover figcaption{
+    bottom: calc(0% - 20px);
+  }
+  .single_on_parking figcaption p{
+    display: inline-block;
+    margin-left: 23px;
+  }
+  .on_parking_area .section_title {
+    margin-bottom: 0;
+  }
+  .on_parking_area .section_title p:last-child{
+    margin-bottom: 0;
+  }
+  
+  
+  
+  /* ============================================
+            End About Us Page Area
+  ===============================================*/
+  
+  
+  /* ============================================
+  13.       Start Blog Page Area
+  ===============================================*/
+  
+  body#blog_page .breadcrumb_bg h6{
+    text-transform: none;
+  }
+  .single_blog_post{
+    border: 1px solid #eeeeee;
+  }
+  .single_blog_post figure {
+    position: relative;
+    margin: 0;
+  }
+  .single_blog_post img {
+    padding: 10px;
+  }
+  .single_blog_post figcaption {
+    position: absolute;
+    right: calc(0px + 17px);
+    top: calc(0px + 17px);
+  }
+  .single_blog_post .blog_comment, .single_blog_post .comment_num {
+    background: #fff none repeat scroll 0 0;
+    padding: 10px;
+  }
+  .blog_comment i, .comment_num i {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #0072a5;
+  }
+  .single_blog_post span {
+    color: #0072a5;
+  }
+  .single_blog_post h5 {
+    margin-bottom: 22px;
+    margin-top: 30px;
+    padding-left: 30px;
+    text-transform: none;
+    color: #313131;
+  }
+  .single_blog_post ul{
+    border-bottom: 1px solid #ecf0f1;
+    border-top: 1px solid #ecf0f1;
+    list-style: outside none none;
+    margin: 0;
+    padding: 6px 0 10px 30px;
+  }
+  .single_blog_post ul li{
+    border-right: 1px solid #b9b8b8;
+    display: inline-block;
+    padding: 0 20px;
+    color: #b9b8b8;
+  }
+  .single_blog_post ul li a{
+    color: #b9b8b8;
+  }
+  .single_blog_post ul li a:hover{
+    color: #017cc0;
+  }
+  .single_blog_post ul li span{
+    color: #666666;
+  }
+  .single_blog_post ul li:last-child{
+    border-right: none;
+  }
+  .single_blog_post ul li:first-child{
+    padding-left: 0px;
+  }
+  .single_blog_post .blog_details > p {
+    color: #999999;
+    margin: 30px 0;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .single_blog_post .blog_details > a {
+    display: block;
+    text-align: right;
+    padding: 0 30px 30px 0;
+    color: #313131;
+    font-size: 13px;
+    font-family: 'RobotoMedium';
+  }
+  .single_blog_post .blog_details > a:hover{
+    color: #017cc0;
+  }
+  .single_blog_post .blog_details i {
+    margin-right: 7px;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .single_blog_post .blog_details > a:hover i{
+    margin-right: 3px;
+  }
+  .single_widget {
+    margin-bottom: 55px;
+    overflow: hidden;
+  }
+  .single_widget .search_wid {
+    border: 20px solid #f8f8f8;
+  }
+  .single_widget .search_wid > form {
+    border: 2px solid #d1d1d1;
+  }
+  .single_widget .search_wid input[type="text"] {
+    border: 0 none;
+    height: 29px;
+    line-height: 29px;
+    width: calc(100% - 33px);
+    text-indent: 5px;
+  }
+  .single_widget .search_wid a {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  .single_widget .search_wid img {
+    padding-bottom: 5px;
+  }
+  .single_widget .category_wid > ul, .single_widget .recent_posts_wid ul, .single_widget .popular_tag_wid ul, .single_widget .flickr_stream_wid ul, .single_widget .archives_wid ul, .all_frequent_queries ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+  }
+  .single_widget .section_title{
+    margin-bottom: 0;
+  }
+  .single_widget .section_title h4 {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+  }
+  .single_widget h4{
+    color: #313131;
+    font-size: 18px;
+  }
+  .single_widget .category_wid > ul > li > a {
+    color: #999;
+  }
+  .single_widget .category_wid > ul > li > a:hover{
+    color: #0072a5;
+  }
+  .single_widget .category_wid li {
+    border-bottom: 1px solid #efefef;
+    line-height: 65px;
+    padding-left: 10px;
+  }
+  .single_widget .category_wid i {
+    font-size: 15px;
+    margin-right: 15px;
+  }
+  .single_widget .recent_posts_wid h6 a {
+    text-transform: none;
+    font-size: 12px;
+    color: #999;
+    font-family: 'Oxygen';
+  }
+  .single_widget .recent_posts_wid h6 a:hover{
+    color: #0072a5;
+  }
+  .single_widget .recent_posts_wid p {
+    color: #c7c7c7;
+    font-size: 11px;
+    line-height: 25px;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  .single_widget .recent_posts_wid p i{
+    margin-right: 10px;
+  }
+  .single_widget .recent_posts_wid li {
+    border-bottom: 1px solid #efefef;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+  .single_widget .recent_posts_wid li:last-child{
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  .single_widget .popular_tag_wid ul li{
+    float: left;
+    margin-bottom: 14px;
+    margin-right: 14px;
+  }
+  .single_widget .flickr_stream_wid ul li{
+    float: left;
+    margin-right: 14px;
+    margin-bottom: 14px;
+  }
+  .single_widget .flickr_stream_wid ul li:nth-child(4), .single_widget .flickr_stream_wid ul li:nth-child(8){
+    margin-right: 0px
+  }
+  .single_widget .popular_tag_wid ul li a{
+    border: 1px solid #dbdbdb;
+    color: #777777;
+    display: block;
+    font-size: 13px;
+    line-height: 32px;
+    padding: 0 16px;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .single_widget .popular_tag_wid ul li a:hover{
+    color: #017cc0;
+    border: 1px solid #017cc0;
+  }
+  .single_widget .archives_wid li {
+    padding: 18px 0;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .single_widget .archives_wid li a{
+    display: block;
+    color: #999999;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .single_widget .archives_wid li a:hover{
+    color: #017cc0;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .single_widget .archives_wid span {
+    border: 1px solid #d7d7d7;
+    border-radius: 50%;
+    display: inline-block;
+    float: right;
+    height: 30px;
+    line-height: 26px;
+    text-align: center;
+    width: 30px;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .single_widget .archives_wid li:hover span{
+    border: 1px solid #017cc0;
+    color: #017cc0;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  
+  
+  /* ============================================
+              End Blog Page Area
+  ===============================================*/
+  
+  
+  
+  /* ============================================
+  14.         Start Footer CSS
+  ===============================================*/
+  
+  
+  .footer_area {
+    border-top: 4px solid #dcdcdc;
+  }
+  .footer_top_area {
+    background: url(images/footer-top.jpg) no-repeat center center /cover;
+  }
+  
+  .single_footer_widgets ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .single_footer_widgets ul li, .single_footer_widgets ul li a, .single_footer_widgets p, .widget_title, .single_footer_widgets span{
+    color: #fff;
+  }
+  .single_footer_widgets ul li{
+    color: #fff;
+  }
+  .single_footer_widgets ul li a{
+    color: #fff;
+  }
+  .address_list i {
+    display: inline-block;
+    float: left;
+    line-height: 49px;
+    margin-right: 24px;
+    width: 12%;
+  }
+  .address_list dl {
+    width: 88%;
+  }
+  .single_footer_widgets h4 {
+    margin-bottom: 22px;
+  }
+  .address_list dt, .address_list dd {
+    font-family: "Oxygen";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+  }
+  .address_list > li {
+    margin-bottom: 22px;
+  }
+  .single_footer_widgets p {
+    font-size: 12px;
+    color: #dcdcdc;
+  }
+  .single_footer_widgets input {
+    background: #e6e6e6 none repeat scroll 0 0;
+    display: block;
+    font-size: 13px;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 15px;
+    text-indent: 17px;
+    width: 100%;
+  }
+  .single_footer_widgets span{
+    color: #dcdcdc;
+    margin-bottom: 31px;
+    display: block;
+  }
+  .footer_social_icons > li {
+    display: inline-block;
+  }
+  .footer_social_icons a{
+    display: block;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .footer_social_icons i {
+    border: 1px solid #959595;
+    border-radius: 50%;
+    display: block;
+    height: 32px;
+    line-height: 30px;
+    text-align: center;
+    width: 32px;
+    margin-right: 17px;
+    font-size: 13px;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .footer_social_icons a:hover i.fa-facebook{
+    border: 1px solid #3b5998;
+    color: #3b5998;
+  }
+  .footer_social_icons a:hover i.fa-google-plus{
+    border: 1px solid #e51c23;
+    color: #e51c23;
+  }
+  .footer_social_icons a:hover i.fa-twitter{
+    border: 1px solid #55acee;
+    color: #55acee;
+  }
+  .footer_social_icons a:hover i.fa-dribbble{
+    border: 1px solid #EA4C89;
+    color: #EA4C89;
+  }
+  .footer_social_icons a:hover i.fa-linkedin{
+    border: 1px solid #007BB6;
+    color: #007BB6;
+  }
+  .industry_support > li {
+    border-bottom: 1px solid #2d2d2d;
+    padding: 12px 0;
+  }
+  .industry_support > li:first-child{
+    padding-top: 0;
+  }
+  .industry_support > li:last-child{
+    border-bottom: none;
+  }
+  .single_footer_widgets .industry_support a {
+    color: #dcdcdc;
+    display: block;
+    line-height: 13px;
+  }
+  .industry_support a:hover{
+    color: #017cc0;
+  }
+  .single_footer_widgets .our_twitter a {
+    color: #6dcff6;
+  }
+  .single_footer_widgets .our_twitter > li {
+    border-bottom: 1px solid #2d2d2d;
+    color: #dcdcdc;
+    padding-bottom: 22px;
+    padding-top: 22px;
+  }
+  .single_footer_widgets .our_twitter > li:first-child{
+    padding-top: 0;
+  }
+  .single_footer_widgets .our_twitter > li:last-child{
+    padding-bottom: 0;
+    border-bottom: none;
+  }
+  .our_twitter span {
+    color: #959595;
+    font-size: 12px;
+    margin-top: 2px;
+    margin-bottom: 0;
+  }
+  .single_footer_widgets .about_us > li {
+    color: #dcdcdc;
+    margin-bottom: 9px;
+  }
+  .single_footer_widgets .about_us a {
+    color: #898989;
+    font-size: 13px;
+    font-family: 'RobotoMedium';
+  }
+  .about_us i {
+    display: inline-block;
+    margin-left: 12px;
+    font-size: 16px;
+  }
+  .single_footer_widgets .about_us a:hover i{
+    margin-left: 16px;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .single_footer_widgets > img {
+    display: block;
+    margin: 70px auto 23px;
+  }
+  .footer_fixed_img > img {
+    display: block;
+    margin: 0 auto;
+  }
+  .footer_copyright > li {
+    line-height: 25px;
+    text-align: center;
+  }
+  
+  .footer_bottom_area {
+    background: #000;
+    padding: 30px 0;
+  }
+  .footer_bottom_left ul, .footer_bottom_right ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .footer_bottom_left ul li, .footer_bottom_right ul li {
+    display: inline-block;
+  }
+  .footer_bottom_left ul li a, .footer_bottom_right ul li a {
+    color: #fff;
+    display: block;
+    font-size: 13px;
+    line-height: 16px;
+    padding: 0 7px;
+  }
+  .footer_bottom_left ul li a:hover, .footer_bottom_right ul li a:hover{
+    color: #017cc0;
+  }
+  .footer_bottom_left ul li a{
+    border-right: 1px solid #fff;
+  }
+  .footer_bottom_left ul li:last-child a{
+    border-right: none;
+  }
+  .footer_bottom_right ul li{
+    border-right: 1px solid #fff;
+  }
+  .footer_bottom_right ul li:last-child{
+    border-right: none;
+  }
+  .single_footer_widgets .industry_support {
+    margin-bottom: 50px;
+  }
+  
+  /* ============================================
+                 End Footer CSS
+  ===============================================*/
+  
+  
+  /* ============================================
+  15.            Start Single Blog Page
+  ===============================================*/
+  
+  
+  .share-this{
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    overflow: hidden;
+    padding: 15px 30px;
+  }
+  .share-left{float: left;}
+  .share-left span.share-title{color: #666666;
+  font-size: 13px;}
+  .share-left span.share-icon a{display: inline-block;
+  margin-left: 10px;}
+  .share-left span.share-icon a i{
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    color: #959595;
+    height: 30px;
+    padding-top: 8px;
+    text-align: center;
+    width: 30px;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .share-left span.share-icon a i:hover{border-color:#017cc0;color:#017cc0}
+  .share-right{float: right;}
+  .share-right span{margin-left: 30px;}
+  .share-right span i{color: #0072a5;}
+  .share-right span a{
+    color: #666666;
+    font-size: 14px;
+    margin-left: 5px;
+  }
+  span.special-text-b{background: #f8f8f8 none repeat scroll 0 0;
+  border-bottom: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+  color: #616161;
+  display: block;
+  font-size: 18px;
+  font-style: italic;
+  line-height: 30px;
+  margin: 30px;
+  padding: 20px;}
+  .super-user{background: #f8f8f8 none repeat scroll 0 0;
+  margin-top: 60px;
+  overflow: hidden;
+  padding: 15px;
+  }
+  .s-user-img{float: left;}
+  .s-user-img img{float: left;
+  margin-right: 15px;}
+  .s-user-name{
+    border-bottom: 1px solid #ddd;
+    margin-top: 12px;
+    overflow: hidden;
+    padding-bottom: 15px;
+  }
+  span.s-user-n{
+    color: #313131;
+    float: left;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+  span.s-user-icon{
+    float:right;
+  }
+  span.s-user-icon a i{
+    color: #d6d6d6;
+    font-size: 16px;
+    margin-left: 10px;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  span.s-user-icon a i:hover{color:#017cc0}
+  .s-user-text p{color: #999999;
+  font-size: 14px;}
+  .user-comments{margin-top: 75px;}
+  .user-comments h2{color: #313131;
+  font-size: 18px;}
+  .single-comments{margin-top: 70px;}
+  .comments-user{margin-top: -30px;
+  overflow: hidden;
+  position: absolute;
+  width: 82%;}
+  .comments-user span.comments-name{color: #313131;
+  float: left;
+  font-size: 15px;
+  width: 50%;}
+  .comments-user span.comments-date{color: #0072a5;
+  font-size: 12px;
+  padding-left: 15px;}
+  .comments-user span.comments-reply{float: right;
+  padding-right: 30px;
+  text-align: right;
+  width: 50%;}
+  .comments-user span.comments-reply a{color: #0072a5;
+  font-size: 13px;}
+  .comments-user span.comments-reply a i{}
+  .inner-comments{border: 1px solid #ddd;
+  overflow: hidden;}
+  .comments-img{float: left;
+  margin-top: -45px;
+  position: absolute;
+  width: 12%;
+  z-index: 9999;}
+  .comments-text{float: right;
+  overflow: hidden;
+  padding-left: 20px;
+  width: 88%;}
+  .comments-text p{color: #999999;}
+  .middle-comment{padding-left: 45px;}
+  .middle-comment .comments-user {
+    width: 78%;
+  }
+  .single-post-contact{margin-top: 75px;}
+  .single-post-contact h2{color: #313131;
+  font-size: 18px;
+  margin-bottom: 45px;}
+  .single-post-contact input[type=text], .leave_message input[type=text]{
+    border: 1px solid #ddd;
+    height: 40px;
+    margin-bottom: 40px;
+    padding-left: 20px;
+    width: 100%;
+  }
+  .single-post-contact textarea#message,  .leave_message textarea#message{
+    border: 1px solid #ddd;
+    height: 160px;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    width: 100%;padding-top: 15px;
+  }
+  .single-post-contact input[type=submit]{
+    background: #0072a5 none repeat scroll 0 0;
+    border: medium none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 20px;
+    text-transform: uppercase;
+  }
+  body#single_blog_page .single_blog_post{
+    border: none;
+  }
+  body#single_blog_page .single_blog_post figure{
+    border: 1px solid #eeeeee;
+  }
+  
+  /* ============================================
+              End Single Blog Page
+  ===============================================*/
+  
+  
+  
+  /* ============================================
+  16.         Start Services Page
+  ===============================================*/
+  
+  
+  body#services_page .get_quote_area {
+    background: rgba(0, 0, 0, 0) url("images/get-a-quote-services.jpg") no-repeat scroll 50% center / cover ;
+    color: #fff;
+  }
+  body#services_page .single_weoffer_best > dl {
+    float: right;
+    margin-bottom: 0;
+    text-align: left;
+    width: 73%;
+  }
+  body#services_page .single_weoffer_best > dl > dt {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    margin-bottom: 16px;
+    color: #313131;
+  }
+  body#services_page .single_weoffer_best > dl > dd{
+    color: #a6a3a3;
+  }
+  body#services_page .single_weoffer_best i {
+    display: inline-block;
+    line-height: 54px;
+    margin-right: 20px;
+    text-align: center;
+    width: 21%;
+  }
+  .watch_video_area{
+    background: rgba(0, 0, 0, 0) url("images/watch-video.jpg") no-repeat scroll 50% center / cover ;
+  }
+  .watch_video_area h3 {
+    color: #fff;
+  }
+  .industry_support_area .nav.nav-tabs {
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: none;
+    margin-bottom: 40px;
+  }
+  .industry_support_area .nav.nav-tabs li{
+    display: inline-block;
+    float: none;
+    margin-right: 24px;
+  }
+  .industry_support_area .nav.nav-tabs li a{
+    border: 1px solid #017cc0;
+    border-radius: 80px;
+    color: #017cc0;
+    font-family: "RobotoMedium";
+    letter-spacing: 0.9px;
+    line-height: 35px;
+    padding: 6px 34px;
+    text-transform: uppercase;
+  }
+  .industry_support_area .nav.nav-tabs li.active a{
+    background: #0072a5;
+    color: #fff;
+  }
+  .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{
+    cursor: pointer;
+  }
+  .industry_support_area .tab-content img {
+    float: left;
+    margin-right: 40px;
+  }
+  .industry_support_area .tab-content p{
+    color: #777777;
+    line-height: 28px;
+  }
+  .performance_area .single_perform {
+    border: 1px solid #eaeaea;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .performance_area .single_perform:hover{
+    border: 1px solid #0072a5;
+  }
+  .performance_area .single_perform > img {
+    margin-top: -32px;
+  }
+  .performance_area .single_perform > h5 {
+    margin-bottom: 29px;
+    margin-top: 26px;
+  }
+  .performance_area .single_perform > p {
+    color: #999999;
+    line-height: 24px;
+    margin-bottom: 39px;
+  }
+  
+  
+  /* ============================================
+                  End Services Page
+  ===============================================*/
+  
+  
+  /* ============================================
+  17.             Start Faq Page Area
+  ===============================================*/
+  
+  
+  .all_frequent_queries a {
+    color: #313131;
+    display: block;
+    font-family: "RobotoMedium";
+    font-size: 16px;
+    line-height: 60px;
+  }
+  .all_frequent_queries a:hover{
+    color: #017cc0;
+  }
+  body#faq_main_page .section_title{
+    margin-bottom: 30px;
+  }
+  .single_why_chose_truck > a {
+    color: #999999;
+    float: right;
+    font-family: "Lato",sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 39px;
+  }
+  .single_why_chose_truck > p {
+    color: #999;
+    font-size: 15px;
+    line-height: 30px;
+  }
+  .all_frequent_queries ul{
+    margin-bottom: 75px;
+  }
+  .single_why_chose_truck > h4 {
+    letter-spacing: 1px;
+    margin-bottom: 23px;
+    text-transform: none;
+    line-height: 40px;
+  }
+  .single_why_chose_truck{
+  
+  }
+  
+  
+  /* ============================================
+                  End Faq Page Area
+  ===============================================*/
+  
+  
+  /* ============================================
+  18.         Start Faq-Accordion Page Area
+  ===============================================*/
+  
+  
+  .all_frequent_accordion_queries .panel-title span {
+    background: rgba(0, 0, 0, 0) url("images/faq-accordion-lock.png") no-repeat scroll center center;
+    padding: 30px 8px;
+    float: right
+  }
+  .all_frequent_accordion_queries .panel-title a.collapsed span {
+    background-image: url("images/faq-accordion-lock-click.png");
+  }
+  .all_frequent_accordion_queries .panel-default > .panel-heading {
+    padding: 0;
+    background: none;
+    border-radius: 0px;
+  }
+  .all_frequent_accordion_queries .panel-default .panel-body p{
+    color: #999;
+  }
+  .all_frequent_accordion_queries .panel-default > .panel-heading .panel-title a {
+    border-bottom: 1px solid #dee8ec;
+    display: block;
+    line-height: 60px;
+  }
+  .all_frequent_accordion_queries .panel-group .panel{
+    border: medium none;
+    border-radius: 0;
+    box-shadow: none;
+  }
+  .all_frequent_accordion_queries .panel-group .panel-body, .all_frequent_accordion_queries .panel-collapse, .all_frequent_accordion_queries .panel-default > .panel-heading + .panel-collapse > .panel-body, .all_frequent_accordion_queries .panel-group .panel-heading + .panel-collapse > .panel-body, .all_frequent_accordion_queries .panel-group .panel-heading + .panel-collapse > .list-group{
+    border: none;
+  }
+  .all_frequent_accordion_queries .panel-group .panel-heading + .panel-collapse > .panel-body{
+    border-bottom: 1px solid #dee8ec;
+  }
+  
+  
+  /* ============================================
+              End Faq-Accordion Page Area
+  ===============================================*/
+  
+  
+  /* ============================================
+  19.         Start Contact Page Area
+  ===============================================*/
+  
+  
+  .our_address_contact .section_title {
+    margin-bottom: 36px;
+  }
+  .our_address_contact .section_title h4{
+    padding-bottom: 20px;
+  }
+  .our_branches ul{
+    list-style: outside none none;
+    margin: -8px 0 0;
+    padding: 0;
+  }
+  .our_branches ul li i{
+    color: #2f8bb5;
+    margin-right: 20px;
+  }
+  .our_branches ul li{
+    color: #999999;
+    line-height: 45px;
+  }
+  .keep_quick dl, .keep_contact dl{
+    float: right;
+    margin-bottom: 0;
+    text-align: left;
+    width: 73%;
+  }
+  .keep_quick dl dt, .keep_contact dl dt {
+    color: #313131;
+    font-family: "Oxygen";
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 31px;
+    letter-spacing: 1px;
+  }
+  .keep_quick dl dd, .keep_contact dl dd{
+    color: #999;
+  }
+  .keep_quick i, .keep_contact i {
+    display: inline-block;
+    line-height: 54px;
+    margin-right: 20px;
+    text-align: center;
+    width: 21%;
+  }
+  .keep_in_touch p {
+    color: #959595;
+    font-size: 15px;
+    line-height: 27px;
+  }
+  .leave_message  input[type="submit"]{
+    background: #0072a5 none repeat scroll 0 0;
+    border: medium none;
+    color: #fff;
+    font-family: 'RobotoMedium';
+    font-size: 16px;
+    /*font-weight: 600;*/
+    padding: 13px 68px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  .leave_message .section_title {
+    margin-bottom: 80px;
+  }
+  
+  
+  /* ============================================
+              End Contact Page Area
+  ===============================================*/
+  
+  
+  /* ============================================
+  20.         Start 404 page Area
+  ===============================================*/
+  
+  .error_mail{
+    background: #f1f1f1 none repeat scroll 0 0;
+    padding: 60px 0;
+  }
+  .error_section input[type="submit"]{
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: #363636 none repeat scroll 0 0;
+    border-color: -moz-use-text-color -moz-use-text-color #252525;
+    border-image: none;
+    border-style: none none solid;
+    border-width: medium medium 3px;
+    color: #fff;
+    font-family: "RobotoMedium";
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 17px 34px;
+    text-transform: uppercase;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .error_section input[type="submit"]:hover{
+    background: #222 none repeat scroll 0 0;
+  }
+  .error_mail input[type="text"] {
+    border: 0 none;
+    border-radius: 0;
+    height: 53px;
+    line-height: 29px;
+    margin-right: -3px;
+    text-indent: 30px;
+    width: calc(100% - 163px);
+  }
+  .error_mail input[type="submit"] {
+    background: #0072a5 none repeat scroll 0 0;
+    border: 0 none;
+    color: #fff;
+    float: right;
+    font-family: "RobotoMedium";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 29px;
+    padding: 12px 52px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .error_mail input[type="submit"]:hover{
+    background: #004d6f;
+  }
+  
+  
+  /* ============================================
+                End 404 page Area
+  ===============================================*/
+  
+  
+  
+  /* ============================================
+  21.         Start On Parking Page Area
+  ===============================================*/
+  
+  .all_parking_trucks .nav.nav-tabs {
+    border-bottom: medium none;
+    margin: 0 auto 40px;
+    text-align: center;
+  }
+  .all_parking_trucks .nav.nav-tabs li {
+    display: inline-block;
+    float: none;
+    margin-right: 24px;
+  }
+  .all_parking_trucks .nav.nav-tabs li a {
+    color: #6b6b6b;
+    font-family: "RobotoMedium";
+    letter-spacing: 0.9px;
+    line-height: 30px;
+    padding: 0 20px;
+    text-transform: none;
+    border-radius: 0px;
+  }
+  .all_parking_trucks .nav.nav-tabs li.active a, .all_parking_trucks .nav.nav-tabs li:hover a {
+    color: #0072a5;
+    border: 1px solid #0072a5;
+  }
+  .all_parking_trucks .tab-content .single_truck{
+    margin-bottom: 30px;
+  }
+  .all_parking_trucks .tab-content figure {
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+  }
+  .single_truck .truck_photo_caption {
+    background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0;
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    -moz-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+  }
+  .single_truck:hover .truck_photo_caption {
+    opacity: 1;
+  }
+  .single_truck .truck_photo_caption a.lightbox {
+    color: #fff;
+    display: block;
+    font-size: 90px;
+    height: 30px;
+    left: 50%;
+    line-height: 30px;
+    margin-left: -40px;
+    margin-top: -40px;
+    position: absolute;
+    top: 50%;
+    width: 30px;
+    -moz-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+  }
+  .single_truck:hover .truck_photo_caption a.lightbox {
+    font-size: 30px;
+    margin-left: -15px;
+    margin-top: -15px;
+  }
+  .single_truck .truck_photo_caption span {
+    background: #0072a5 none repeat scroll 0 0;
+    bottom: 0;
+    color: #fff;
+    font-family: "RobotoMedium";
+    font-size: 18px;
+    left: 0;
+    padding: 15px 0;
+    position: absolute;
+    text-transform: uppercase;
+    width: 100%;
+  }
+  .pagination_number nav ul{
+    margin: 0;
+  }
+  .pagination_number nav ul li a{
+    font-size: 15px;
+    color: #999999;
+    border: 1px solid #eeeeee;
+    margin-right: 5px;
+  }
+  .pagination_number nav ul li a:hover{
+    background-color: #fff;
+  }
+  .pagination_number nav ul li.active a {
+    background-color: #0072a5;
+  }
+  .pagination_number nav ul li:last-child a, .pagination_number nav ul li:first-child a{
+    border-radius: 0px;
+  }
+  .pagination_number nav ul li a, .pagination_number nav ul li.active a{
+    padding: 9px 17px;
+  }
+  
+  
+  /* ============================================
+              End On Parking Page Area
+  ===============================================*/
+  
+  
+  
+  /* ============================================
+  22.         Start 2nd Home page Area
+  ===============================================*/
+  
+  
+  .main_two_slider_area {
+    background: rgba(0, 0, 0, 0) url("images/main-slider-four.jpg") no-repeat scroll center center / cover ;
+    min-height: 800px;
+  }
+  
+  .main_two_slider_area h1, .main_two_slider_area p{
+    color: #fff;
+  }
+  .main_two_slider_area h1{
+    font-weight: 400;
+    text-transform: none;
+    font-size: 45px;
+    line-height: 55px
+  }
+  .main_two_slider_area p {
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 29px;
+    text-transform: none;
+  }
+  .why_choose_home_two .section_title h4{
+    font-family: Roboto Medium;
+    font-size:24px;
+    color:#333333;
+    line-height: 30px;
+  }
+  .why_choose_home_two h4{
+    font-family: Oxygen;
+    font-size:14px;
+    color:#959595;
+  }
+  .single_whyhome_two_img:hover figure figcaption {
+    left: 1%;
+    bottom: 1%;
+  }
+  .single_whyhome_two_img figure{
+    position: relative;
+    overflow: hidden;
+  }
+  .single_whyhome_two_img figcaption {
+    background-color: #017cc0;
+    border-radius: 50%;
+    bottom: -6%;
+    left: -3%;
+    padding: 20px;
+    position: absolute;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .single_blog_info h6{
+      font-size: 17px;
+      color:#313131;
+  }
+  .single_blog_info p{
+      font-family: Oxygen;
+      font-size: 14px;
+      color:#777777;
+      line-height: 26px
+  }
+  body#home_two .logistic_counter_area{
+    background: rgba(0, 0, 0, 0) url("images/counter-bg-home-two.jpg") no-repeat scroll center center / cover ;
+  }
+  body#home_two .single-counter span {
+    color: #0a8fc7;
+  }
+  body#home_two .single-counter > h4{
+    color: #fff;
+  }
+  body#home_two .single-counter{
+    padding: 0;
+  }
+  body#home_two .logistic_counter_area .section_title{
+    margin-bottom: 70px;
+  }
+  body#home_two .logistic_counter_area .section_title p{
+    color: #fcfcfc;
+  }
+  body#home_two .transport_features .section-content ul {
+    list-style: outside none none;
+    margin: 0 0 51px;
+    padding: 0;
+  }
+  body#home_two .transport_features .section-content ul li{
+    color: #fff;
+    line-height: 42px;
+  }
+  body#home_two .transport_features .section-content ul li img{
+    margin-right: 23px;
+  }
+  body#home_two .transport_features .section-content a.btn{
+    font-size: 15px;
+    color: #252b3f;
+    background: #fff;
+    border-radius: 0px;
+    border-bottom: 2px solid #eeeaea;
+  }
+  body#home_two .owl-carousel .owl-item img {
+    width: auto;
+  }
+  .client_home_two_txt {
+    background: #fff none repeat scroll 0 0;
+    margin: 0 auto;
+    width: 84%;
+  }
+  .client_home_two_txt > img {
+    float: left;
+    margin-right: 35px;
+  }
+  .client_home_two_txt h3 {
+    color: #017cc0;
+    font-family: "Oxygen";
+    font-size: 14px;
+    padding: 15px 0;
+  }
+  .client_home_two_txt p {
+    color: #999;
+    padding-bottom: 21px;
+    line-height: 28px;
+    margin: 0;
+  }
+  body#home_two .testi_prev, body#home_two .testi_next {
+    color: #36383f;
+    font-size: 40px;
+    top: 62%;
+  }
+  .blog_feed_home > ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+  }
+  .blog_feed_home li {
+    border-right: 1px solid #b0b0b0;
+    color: #999999;
+    display: inline-block;
+    font-size: 13px;
+    margin-right: 20px;
+    padding-right: 20px;
+  }
+  .blog_feed_home li:last-child{
+    border-right: none;
+  }
+  .blog_feed_home li img {
+    padding: 0 15px;
+  }
+  .blog_feed_home {
+    padding: 10px;
+    border: 1px solid #eeeeee;
+  }
+  .blog_feed_home h6{
+    margin: 26px 0 7px;
+  }
+  .blog_feed_home h6 a{
+    font-size: 17px;
+  }
+  .blog_feed_home > p {
+    color: #777777;
+    line-height: 28px;
+  }
+  .header-contact{background: #fff none repeat scroll 0 0;
+  overflow: hidden;
+  padding: 30px;}
+  h2.header-contact-title{background: #0072a5 none repeat scroll 0 0;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+  padding: 17px 0;
+  text-align: center;
+  text-transform: capitalize;
+  width: 100%;}
+  .header-form-left{float: left;
+  padding-right: 15px;
+  width: 50%;}
+  .header-form-right{float: right;
+  width: 50%;padding-left: 15px;}
+  .header-contact p{color: #313131;
+  font-size: 14px;
+  margin-bottom: 5px;}
+  .form-h-name {
+    margin-bottom: 20px;
+  }
+  .form-h-name > input {
+  border: 1px solid #ddd;
+  height: 40px;
+  padding-left: 10px;
+  width: 100%;
+  }
+  .form-h-select select{ border: 1px solid #ddd;
+  height: 40px;
+  padding-left: 10px;
+  width: 100%;}
+  .text-area-h{margin-bottom: 20px;}
+  .text-area-h textarea#message-h{border: 1px solid #ddd;
+  height: 83px;
+  padding-left: 10px;
+  padding-top: 10px;
+  width: 100%;}
+  .text-area-h input[type=submit]{background: #0072a5 none repeat scroll 0 0;
+  border: medium none;
+  color: #fff;
+  font-weight: 700;
+  height: 40px;
+  letter-spacing: 1px;
+  margin-top: 30px;
+  text-transform: uppercase;
+  width: 100%;}
+  .header-form-top{margin-top: 145px;}
+  .about_transport .btn.btn-see:hover{
+    color: #fff;
+  }
+  .about_transport .btn.btn-see {
+    border-radius: 0;
+    background-color: #0072a5;
+    margin-right: 10px;
+  }
+  .about_transport .btn.btn-see.btn-white {
+    background-color: #fff;
+    color: #0072a5;
+  }
+  .single_whyhome_two_img > p {
+    color: #777;
+  }
+  .single_whyhome_two_img h5 {
+    margin: 26px 0 16px;
+  }
+  
+  
+  /* ============================================
+              End 2nd Home page Area
+  ===============================================*/
+  
+  
+  /* --------------------------------------------------------
+  23.           start contact us page CSS
+  -----------------------------------------------------------*/
+  .send_mail .section_title h4, .contact_info .section_title h4{
+    color: #515151;
+    font-size: 18px;
+  }
+  .send_mail input, .send_mail textarea {
+    border: 1px solid #e0e1e5;
+    color: #666666;
+    display: inline;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 20px;
+    margin-bottom: 30px;
+    outline: none;
+    width: 100%;
+    text-transform: uppercase;
+  }
+  .send_mail a.btn{
+    text-transform: none;
+  }
+  .contact_info > ul > li{
+    line-height: 25px;
+    margin-bottom: 29px;
+    font-size: 16px;
+  }
+  .contact_info > ul > li > i {
+    float: left;
+    font-size: 20px;
+    margin-right: 15px;
+    min-height: 40px;
+    padding-top: 3px;
+  }
+  body#contact_us_page .contact_info .social_icons > ul > li > a, .contact_info > ul > li{
+    color: #999999;
+  }
+  body#contact_us_page .contact_info .social_icons > ul > li > a{
+    font-size: 20px;
+    padding-right: 30px;
+  }
+  body#contact_us_page .contact_info .social_icons > ul > li > a:hover{
+    color: #313a45;
+  }
+  .submit_btn {
+    margin-top: 16px;
+  }
+  .thank_box {
+    background: none repeat scroll 0 0 #eee;
+    border-bottom: 5px solid #1774c1;
+    font-size: 20px;
+    height: 271px;
+    margin: 100px auto 0;
+    padding-top: 90px;
+    text-align: center;
+    width: 55%;
+  }
+  .thank_box a {
+    background: #1774c1 none repeat scroll 0 0;
+    border: 2px solid #fff;
+    color: #fff;
+    display: block;
+    font-size: 13px;
+    margin: 25px auto 0;
+    padding: 15px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 250px;
+  }
+  .thank_box a:hover {
+    background: none repeat scroll 0 0 #fff;
+    color: #1774c1;
+    border:2px solid #1774c1;
+    text-decoration:none;
+  }
+  .thank_box i {
+    font-size: 12px;
+    margin-right: 5px;
+  }
+  .send_mail .btn{
+    text-transform: none;
+  }
+  
+  /* --------------------------------------------------------
+                  End contact us page CSS
+  -----------------------------------------------------------*/       
+  
+  
+  
+  /* --------------------------------------------------------
+  24.                Start Responsive CSS
+  -----------------------------------------------------------*/
+  
+  
+  /* ============================================
+            Start Medium Layout: 1280px
+  ===============================================*/
+  
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .container{
+    width: 970px;
+  }
+  .header_we_are > dl {
+    width: 67%;
+  }
+  .main_menu .navbar-default .navbar-nav > li > a {
+    padding: 24px 31px;
+  }
+  .header_we_are dd, .header_we_are dd a {
+    font-size: 12px;
+  }
+  .transport_features_area .panel-default > .panel-heading .panel-title a {
+    font-size: 14px;
+  }
+  .transport_features {
+    min-height: 850px;
+  }
+  .single_footer_widgets h4 {
+    font-size: 22px;
+  }
+  .footer_social_icons i {
+    margin-right: 7px;
+  }
+  .address_list dt, .address_list dd {
+    font-size: 11px;
+  }
+  .single_who figure p {
+    padding: 10px 30px 10px;
+  }
+  .single_on_parking figcaption {
+    margin: 0 16px;
+    padding: 0 10px;
+  }
+  .single_on_parking figcaption p {
+    margin-left: 14px;
+  }
+  .keep_quick i, .keep_contact i {
+    margin-right: 10px;
+  }
+  body#services_page .single_weoffer_best i {
+    margin-right: 10px;
+    width: 22%;
+  }
+  body#services_page .single_weoffer_best > dl > dt {
+    font-size: 16px;
+  }
+  body#services_page .get_quote_area {
+    background-position: 61.5% center;
+  }
+  .industry_support_area .tab-content p {
+    line-height: 25px;
+  }
+  .single_blog_post ul li {
+    padding: 0 10px;
+  }
+  .blog_feed_home li {
+    margin-right: 15px;
+    padding-right: 15px;
+  }
+  .blog_feed_home h6 a {
+    font-size: 15px;
+  }
+  body#home_two .transport_features .section-content ul li {
+    font-size: 13px;
+  }
+  body#home_two .transport_features .section-content ul li img {
+    margin-right: 3px;
+  }
+  
+  
+  }
+  /* ============================================
+            End Medium Layout: 1280px
+  ===============================================*/
+  
+  
+  /* ============================================
+            Start Tablet Layout: 768px
+  ===============================================*/
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+   .container{
+    width:750px;
+  }
+  .header_we_are i {
+    width: 22%;
+  }
+  .main_menu .navbar-default .navbar-nav > li > a {
+    padding: 24px 21px;
+  }
+  .main_menu .dropdown-menu > li > a {
+    font-size: 12px;
+  }
+  .transport_features_area .panel-default > .panel-heading .panel-title a {
+    text-indent: 3px;
+    font-size: 10px;
+  }
+  .single_footer_widgets {
+    margin-bottom: 30px;
+  }
+  .single_who figure p {
+    padding: 0 11px 5px;
+  }
+  .transport_features {
+    min-height: 850px;
+  }
+  .get_quote_area {
+    background: #000;
+  }
+  /*start about-us on parking*/
+  .single_on_parking {
+    margin-bottom: 50px;
+  }
+  .single_on_parking figcaption {
+    margin: 0 52px;
+    padding: 0 29px;
+    width: 70%;
+  }
+  /*End about-us on parking*/
+  .our_branches ul li i {
+    margin-right: 1px;
+  }
+  .keep_quick i, .keep_contact i {
+    margin-right: 10px;
+  }
+  .keep_in_touch p {
+    font-size: 13px;
+    line-height: 20px;
+  }
+  body#services_page .single_weoffer_best {
+    margin-bottom: 60px;
+  }
+  body#services_page .single_perform{
+    margin-bottom: 60px;
+  }
+  body#services_page .get_quote_area{
+    background: #000;
+  }
+  .weare_best_at_area {
+    background: #000 none repeat scroll 0 0;
+  }
+  .client_home_two_txt p {
+    line-height: 19px;
+    padding-bottom: 10px;
+  }
+  .blog_feed_home {
+    margin-bottom: 30px;
+  }
+  
+  
+  
+  
+  }
+  
+  /* ============================================
+            Start Mobile Layout: 320px
+  ===============================================*/
+  
+  @media only screen and (max-width: 767px) {
+  .container {
+    width:320px;
+  }
+  .why_us_area .single_why_us{
+    margin-bottom: 30px;
+  }
+  .transport_features_area {
+    background: #1874C1;
+  }
+  .transport_features_area .panel-title span {
+    height: 40px;
+    padding: 30px 5px;
+    width: 40px;
+  }
+  .transport_features_area .panel-default > .panel-heading .panel-title a {
+    font-size: 9px;
+    text-indent: 4px;
+  }
+  .get_quote_area {
+    background: #000;
+  }
+  .error_mail input[type="submit"] {
+    padding: 12px 6px;
+  }
+  .error_mail input[type="text"] {
+    text-indent: 5px;
+    width: calc(100% - 75px);
+  }
+  .single_who figure p {
+    margin-bottom: 30px;
+    padding: 5px 30px;
+  }
+  .weare_best_at_area {
+    background: #1D1C21;
+  }
+  .on_parking_area .single_on_parking {
+    margin-top: 50px;
+  }
+  .about_client_area .client_border{
+    border: none;
+  }
+  .all_parking_trucks .nav.nav-tabs li {
+    margin-bottom: 20px;
+    margin-right: 5px;
+  }
+  .all_parking_trucks .nav.nav-tabs li a {
+    padding: 0 5px;
+  }
+  .pagination_number nav ul li a, .pagination_number nav ul li.active a {
+    padding: 2px 11px;
+  }
+  .share-right span {
+    margin-left: 5px;
+  }
+  .share-this {
+    padding: 10px;
+  }
+  .share-left span.share-icon a {
+    margin-left: 2px;
+  }
+  .single_blog_post ul li {
+    border-right: none;
+  }
+  .single_blog_post figcaption{
+    display: none;
+  }
+  .keep_quick i, .keep_contact i {
+    margin-right: 10px;
+  }
+  .our_branches{
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  .all_frequent_accordion_queries .panel-default > .panel-heading .panel-title a{
+    font-size: 14px;
+    line-height: 50px;
+  }
+  body#services_page .single_weoffer_best i {
+    margin-right: 10px;
+  }
+  body#services_page .single_weoffer_best > dl > dt {
+    line-height: 23px;
+  }
+  body#services_page .single_weoffer_best{
+    margin-bottom: 50px;
+  }
+  .industry_support_area .nav.nav-tabs li{
+    margin-bottom: 30px;
+  }
+  .performance_area .single_perform{
+    margin-bottom: 60px;
+  }
+  span.s-user-icon {
+    float: left;
+  }
+  span.s-user-icon a i {
+    margin-left: 5px;
+  }
+  .single_blog_post img {
+    padding: 0; 
+  }
+  .comments-img {
+    margin-left: 5px;
+    margin-top: -18px;
+  }
+  .comments-user span.comments-name {
+    font-size: 12px;
+    width: 60%;
+  }
+  .comments-user span.comments-date {
+    padding-left: 5px;
+  }
+  .comments-user span.comments-reply {
+    text-align: left;
+    width: 40%;
+    padding: 0 5px;
+  }
+  .blog_details ul li img {
+    padding: 0 10px;
+  }
+  .about_transport .btn.btn-see {
+    font-size: 17px;
+    padding: 10px;
+  }
+  body#home_two .single_whyhome_two_img {
+    margin-bottom: 50px;
+  }
+  body#home_two .transport_features_area {
+    background: #262b3f none repeat scroll 0 0;
+  }
+  body#home_two .owl-carousel .owl-item img {
+    margin: 0 35px auto;
+  }
+  .client_home_two_txt h3 {
+    margin: 10px;
+  }
+  .blog_feed_home li {
+    margin-right: 15px;
+    padding-right: 15px;
+  }
+  .blog_feed_home{
+    margin-bottom: 30px;
+  }
+  body#home_two .single-counter {
+    margin-bottom: 30px;
+  }
+  
+  
+  }
+  /* ============================================
+            End Mobile Layout: 320px
+  ===============================================*/
+  
+  
+  /* ============================================
+            Start Wide Mobile Layout: 480px
+  ===============================================*/
+  
+  @media only screen and (min-width: 480px) and (max-width: 767px) {
+  .container {
+    width:450px;
+  }
+  
+  
+  }
+  /* ============================================
+            End Wide Mobile Layout: 480px
+  ===============================================*/
+  
+  
+  /* --------------------------------------------------------
+                  End Responsive CSS
+  -----------------------------------------------------------*/
+  
