@@ -1,0 +1,769 @@
+
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<!--[if lt IE 7 ]> <html lang="en" class="ie6">    <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="ie7">    <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="ie8">    <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="ie9">    <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="en"><!--<![endif]-->
+ 	<head>
+	    <meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <title>Max-Logistic</title>
+		<!-- fonts files -->
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="fonts/fonts.css">
+		
+		<!-- CSS files -->
+
+	    <!-- Bootstrap css -->
+	    <link rel="stylesheet" href="css/bootstrap.min.css">
+	    <!-- UIkit CSS -->
+	    <link rel="stylesheet" href="css/uikit.min.css">
+
+	    <!-- Owl carousel 2 css -->
+	    <link rel="stylesheet" href="css/owl.carousel.css">
+
+	    <!-- SLIDER REVOLUTION 4.x CSS SETTINGS -->
+	    <link rel="stylesheet" type="text/css" href="js/rs-plugin/css/extralayers.css" media="screen" />	
+		<link rel="stylesheet" type="text/css" href="js/rs-plugin/css/settings.css" media="screen" />
+
+	    <!-- Theme -->
+        <link rel="stylesheet" href="css/reset.css">
+
+	    <!-- Custom css -->
+	    <link rel="stylesheet" href="style.css">
+
+	    <!-- Favicons -->
+	    <link rel="apple-touch-icon-precomposed" href="images/apple-touch-icon-precomposed.png">
+	    <link rel="shortcut icon" type="image/png" href="images/favicon.ico"/>
+
+	    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	    <!--[if lt IE 9]>
+	      <script src="js/html5shiv.min.js"></script>
+	      <script src="js/respond.min.js"></script>
+	    <![endif]-->
+
+	</head>
+  	<body id="on_parking_page">
+    
+		
+		<!-- Start Header Area -->
+		<header class="header_area">
+			<div class="header_top_area">
+				<div class="container">
+					<div class="row">
+						<div class="header_top clearfix">
+							<div class="col-md-6 col-sm-6">
+								<nav class="header_top_menu">
+									<ul class="menu">
+										<li><a href="#">Faq</a></li>
+										<li><a href="#">Help Desk</a></li>
+										<li><a href="#">Track Shipment</a></li>
+									</ul>
+								</nav>
+							</div>
+							<div class="col-md-6 col-sm-6">
+								<div class="header_top_social floatright">
+									<ul class="menu">
+										<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+										<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+										<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+										<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="header_logo_area">
+				<div class="container">
+					<div class="row">
+						<div class="header_logo clearfix">
+							<div class="col-md-5 col-sm-3">
+								<div class="site_logo">
+									<a href="index.html"><img src="images/site-logo-one.png" alt="site logo"></a>
+								</div>
+							</div>
+							<div class="col-md-7 col-sm-9">
+								<div class="row">
+									<div class="header_top_service clearfix">
+										<div class="col-md-4 col-sm-4">
+											<div class="header_we_are clearfix">
+												<dl>
+													<dt>We Are Here</dt>
+													<dd>Sydney  -  Australia</dd>
+												</dl>
+												<i><img src="images/we-are-here.png" alt=""></i>
+											</div>
+										</div>
+										<div class="col-md-4 col-sm-4">
+											<div class="header_we_are clearfix">
+												<dl>
+													<dt>Call Us On</dt>
+													<dd><a href="tel:+61-(123)-456-789">+61 (123) 456 789</a></dd>
+												</dl>
+												<i><img src="images/call-us-on.png" alt=""></i>
+											</div>
+										</div>
+										<div class="col-md-4 col-sm-4">
+											<div class="header_we_are clearfix">
+												<dl>
+													<dt>We Are Open</dt>
+													<dd>9.00 AM  -  6.00 Pm</dd>
+												</dl>
+												<i><img src="images/we-are-open.png" alt=""></i>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="header_bottom_area">
+				<div class="container">
+					<div class="row">
+						<div class="main_menu">
+				            <nav class="navbar navbar-default">
+				                <!-- Brand and toggle get grouped for better mobile display -->
+				                <div class="navbar-header">
+				                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				                    <span class="sr-only">Toggle navigation</span>
+				                    <span class="icon-bar"></span>
+				                    <span class="icon-bar"></span>
+				                    <span class="icon-bar"></span>
+				                  </button>
+				                  <!-- <a class="navbar-brand" href="#"><img src="img/logo-seven.png" alt=""></a> -->
+				                </div>
+
+				                <!-- Collect the nav links, forms, and other content for toggling -->
+				                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				                  <ul class="nav navbar-nav">
+				                    <li role="presentation" class="dropdown">
+                                        <a id="drop1" href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="false">
+                                          Home
+                                        </a>
+										<ul id="menu1" class="dropdown-menu" role="menu">
+                                          <li role="presentation"><a role="menuitem" tabindex="-1" href="index.html">Home Version One</a></li>
+                                          <li role="presentation"><a role="menuitem" tabindex="-1" href="index-two.html">Home Version Two</a></li>
+                                        </ul>
+				                    </li>
+				                    <li><a href="about-us.html">About us</a></li>
+				                    <li><a href="services.html">Services</a></li>
+				                    <li class="active"><a href="on-parking.html">On Parking</a></li>
+				                    <li><a href="blog.html">Blog</a></li>
+				                    <li role="presentation" class="dropdown">
+                                        <a id="drop2" href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="false">
+                                          Pages
+                                        </a>
+                                        <ul id="menu2" class="dropdown-menu" role="menu">
+                                          <li role="presentation"><a role="menuitem" tabindex="-1" href="index.html">Home Version One</a></li>
+                                          <li role="presentation"><a role="menuitem" tabindex="-1" href="index-two.html">Home Version Two</a></li>
+                                          <li role="presentation"><a role="menuitem" tabindex="-1" href="about-us.html">About us</a></li>
+                                          <li role="presentation"><a role="menuitem" tabindex="-1" href="blog.html">Blog</a></li>
+                                          <li role="presentation"><a role="menuitem" tabindex="-1" href="single-blog.html">Single Blog</a></li>
+                                          <li role="presentation"><a role="menuitem" tabindex="-1" href="contact.html">Contact Us</a></li>
+                                          <li role="presentation"><a role="menuitem" tabindex="-1" href="faq.html">FAQ</a></li>
+                                          <li role="presentation"><a role="menuitem" tabindex="-1" href="faq-accordion.html">Faq Accordion</a></li>
+                                          <li role="presentation"><a role="menuitem" tabindex="-1" href="on-parking.html">On Parking</a></li>
+                                          <li role="presentation"><a role="menuitem" tabindex="-1" href="services.html">Services</a></li>
+                                          <li role="presentation"><a role="menuitem" tabindex="-1" href="404.html">404 Page</a></li>
+                                        </ul>
+                                    </li>
+				                    <li><a href="faq.html">Faq</a></li>
+				                    <li><a href="contact.html">Contact</a></li>
+				                  </ul>
+				                </div><!-- /.navbar-collapse -->
+				            </nav>
+				        </div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- End Header Area -->
+
+
+		<!-- start breadcrumb -->
+        <section class="breadcrumb_main_area">
+            <!-- <div class="container-fluid"> -->
+                <div class="row">
+                    <div class="breadcrumb_main nice_title content-center">
+                        <h3>On Parking</h3>
+                        <img src="images/breadcrumb-nice-title-one.png" alt="">
+                    </div>
+                    <div class="breadcrumb_bg margin-top-70">
+                    	<div class="container">
+	                    	<div class="col-md-6 padding-left-0 col-sm-6 col-xs-12">
+								<h6>On Our Parking Fleet</h6>
+	                    	</div>
+	                    	<div class="col-md-6 padding-right-0 col-sm-6 col-xs-12">
+			                    <ol class="breadcrumb floatright">
+			                    	<li><a href="#">Home</a></li>
+			                    	<li><a href="#">On Parking</a></li>
+			                    </ol>
+	                    	</div>
+                    	</div>
+                    </div>
+                </div>
+            <!-- </div>  -->
+        </section>
+        <!-- end breadcrunb -->
+		
+		
+		<section class="all_parking_trucks_area">
+			<div class="container">
+				<div class="row section-padding">
+					<div class="col-md-12">
+						<div class="all_parking_trucks">
+							<div>
+
+							  <!-- Nav tabs -->
+							  <ul class="nav nav-tabs" role="tablist">
+							    <li role="presentation" class="active"><a href="#all" aria-controls="all" role="tab" data-toggle="tab">All</a></li>
+							    <li role="presentation"><a href="#short-truck" aria-controls="short-truck" role="tab" data-toggle="tab">Short Truck</a></li>
+							    <li role="presentation"><a href="#long-truct" aria-controls="long-truct" role="tab" data-toggle="tab">Long Truct</a></li>
+							    <li role="presentation"><a href="#heavy-load" aria-controls="heavy-load" role="tab" data-toggle="tab">Heavy Load</a></li>
+							    <li role="presentation"><a href="#liquid-carrier" aria-controls="liquid-carrier" role="tab" data-toggle="tab">Liquid Carrier</a></li>
+							  </ul>
+
+							  <!-- Tab panes -->
+							  <div class="tab-content">
+							    <div role="tabpanel" class="tab-pane active" id="all">
+							    	<div class="row">
+							    		<div class="col-md-4 col-sm-6 col-xs-12">
+							    			<div class="single_truck">
+								    			<figure>
+								    				<a href="#"><img src="images/on-parking-img/on-parking-one.jpg" alt=""></a>
+								    				<figcaption class="truck_photo_caption">
+					                                    <a data-gall="gall-gallery" class="lightbox vbox-item" href="images/on-parking-img/on-parking-one.jpg"><i class="pe-7s-search"></i></a>
+					                                    <span>Long Truck</span>
+								    				</figcaption>
+								    			</figure>
+							    			</div>
+							    		</div>
+							    		<div class="col-md-4 col-sm-6 col-xs-12">
+							    			<div class="single_truck">
+								    			<figure>
+								    				<a href="#"><img src="images/on-parking-img/on-parking-two.jpg" alt=""></a>
+								    				<figcaption class="truck_photo_caption">
+					                                    <a data-gall="gall-gallery" class="lightbox vbox-item" href="images/on-parking-img/on-parking-two.jpg"><i class="pe-7s-search"></i></a>
+					                                    <span>Short Truck</span>
+								    				</figcaption>
+								    			</figure>
+							    			</div>
+							    		</div>
+							    		<div class="col-md-4 col-sm-6 col-xs-12">
+							    			<div class="single_truck">
+								    			<figure>
+								    				<a href="#"><img src="images/on-parking-img/on-parking-three.jpg" alt=""></a>
+								    				<figcaption class="truck_photo_caption">
+					                                    <a data-gall="gall-gallery" class="lightbox vbox-item" href="images/on-parking-img/on-parking-three.jpg"><i class="pe-7s-search"></i></a>
+					                                    <span>Heavy Truck</span>
+								    				</figcaption>
+								    			</figure>
+							    			</div>
+							    		</div>
+							    		<div class="col-md-4 col-sm-6 col-xs-12">
+							    			<div class="single_truck">
+								    			<figure>
+								    				<a href="#"><img src="images/on-parking-img/on-parking-four.jpg" alt=""></a>
+								    				<figcaption class="truck_photo_caption">
+					                                    <a data-gall="gall-gallery" class="lightbox vbox-item" href="images/on-parking-img/on-parking-four.jpg"><i class="pe-7s-search"></i></a>
+					                                    <span>Liquid Truck</span>
+								    				</figcaption>
+								    			</figure>
+							    			</div>
+							    		</div>
+							    		<div class="col-md-4 col-sm-6 col-xs-12">
+							    			<div class="single_truck">
+								    			<figure>
+								    				<a href="#"><img src="images/on-parking-img/on-parking-five.jpg" alt=""></a>
+								    				<figcaption class="truck_photo_caption">
+					                                    <a data-gall="gall-gallery" class="lightbox vbox-item" href="images/on-parking-img/on-parking-five.jpg"><i class="pe-7s-search"></i></a>
+					                                    <span>Long Truck</span>
+								    				</figcaption>
+								    			</figure>
+							    			</div>
+							    		</div>
+							    		<div class="col-md-4 col-sm-6 col-xs-12">
+							    			<div class="single_truck">
+								    			<figure>
+								    				<a href="#"><img src="images/on-parking-img/on-parking-six.jpg" alt=""></a>
+								    				<figcaption class="truck_photo_caption">
+					                                    <a data-gall="gall-gallery" class="lightbox vbox-item" href="images/on-parking-img/on-parking-six.jpg"><i class="pe-7s-search"></i></a>
+					                                    <span>Short Truck</span>
+								    				</figcaption>
+								    			</figure>
+							    			</div>
+							    		</div>
+							    		<div class="col-md-4 col-sm-6 col-xs-12">
+							    			<div class="single_truck">
+								    			<figure>
+								    				<a href="#"><img src="images/on-parking-img/on-parking-seven.jpg" alt=""></a>
+								    				<figcaption class="truck_photo_caption">
+					                                    <a data-gall="gall-gallery" class="lightbox vbox-item" href="images/on-parking-img/on-parking-seven.jpg"><i class="pe-7s-search"></i></a>
+					                                    <span>Heavy Truck</span>
+								    				</figcaption>
+								    			</figure>
+							    			</div>
+							    		</div>
+							    		<div class="col-md-4 col-sm-6 col-xs-12">
+							    			<div class="single_truck">
+								    			<figure>
+								    				<a href="#"><img src="images/on-parking-img/on-parking-eight.jpg" alt=""></a>
+								    				<figcaption class="truck_photo_caption">
+					                                    <a data-gall="gall-gallery" class="lightbox vbox-item" href="images/on-parking-img/on-parking-eight.jpg"><i class="pe-7s-search"></i></a>
+					                                    <span>Liquid Truck</span>
+								    				</figcaption>
+								    			</figure>
+							    			</div>
+							    		</div>
+							    		<div class="col-md-4 col-sm-6 col-xs-12">
+							    			<div class="single_truck">
+								    			<figure>
+								    				<a href="#"><img src="images/on-parking-img/on-parking-nine.jpg" alt=""></a>
+								    				<figcaption class="truck_photo_caption">
+					                                    <a data-gall="gall-gallery" class="lightbox vbox-item" href="images/on-parking-img/on-parking-nine.jpg"><i class="pe-7s-search"></i></a>
+					                                    <span>Heavy Truck</span>
+								    				</figcaption>
+								    			</figure>
+							    			</div>
+							    		</div>
+							    		<div class="col-md-4 col-sm-6 col-xs-12">
+							    			<div class="single_truck">
+								    			<figure>
+								    				<a href="#"><img src="images/on-parking-img/on-parking-ten.jpg" alt=""></a>
+								    				<figcaption class="truck_photo_caption">
+					                                    <a data-gall="gall-gallery" class="lightbox vbox-item" href="images/on-parking-img/on-parking-ten.jpg"><i class="pe-7s-search"></i></a>
+					                                    <span>Long Truck</span>
+								    				</figcaption>
+								    			</figure>
+							    			</div>
+							    		</div>
+							    		<div class="col-md-4 col-sm-6 col-xs-12">
+							    			<div class="single_truck">
+								    			<figure>
+								    				<a href="#"><img src="images/on-parking-img/on-parking-eleven.jpg" alt=""></a>
+								    				<figcaption class="truck_photo_caption">
+					                                    <a data-gall="gall-gallery" class="lightbox vbox-item" href="images/on-parking-img/on-parking-eleven.jpg"><i class="pe-7s-search"></i></a>
+					                                    <span>Liquid Truck</span>
+								    				</figcaption>
+								    			</figure>
+							    			</div>
+							    		</div>
+							    		<div class="col-md-4 col-sm-6 col-xs-12">
+							    			<div class="single_truck">
+								    			<figure>
+								    				<a href="#"><img src="images/on-parking-img/on-parking-twelve.jpg" alt=""></a>
+								    				<figcaption class="truck_photo_caption">
+					                                    <a data-gall="gall-gallery" class="lightbox vbox-item" href="images/on-parking-img/on-parking-twelve.jpg"><i class="pe-7s-search"></i></a>
+					                                    <span>Heavy Truck</span>
+								    				</figcaption>
+								    			</figure>
+							    			</div>
+							    		</div>
+							    	</div>
+							    </div>
+							    <div role="tabpanel" class="tab-pane" id="short-truck">
+							    	<div class="row">
+							    		<div class="col-md-4 col-sm-6 col-xs-12">
+							    			<div class="single_truck">
+								    			<figure>
+								    				<a href="#"><img src="images/on-parking-img/on-parking-two.jpg" alt=""></a>
+								    				<figcaption class="truck_photo_caption">
+					                                    <a data-gall="gall-gallery" class="lightbox vbox-item" href="images/on-parking-img/on-parking-two.jpg"><i class="pe-7s-search"></i></a>
+					                                    <span>Short Truck</span>
+								    				</figcaption>
+								    			</figure>
+							    			</div>
+							    		</div>
+							    		<div class="col-md-4 col-sm-6 col-xs-12">
+							    			<div class="single_truck">
+								    			<figure>
+								    				<a href="#"><img src="images/on-parking-img/on-parking-six.jpg" alt=""></a>
+								    				<figcaption class="truck_photo_caption">
+					                                    <a data-gall="gall-gallery" class="lightbox vbox-item" href="images/on-parking-img/on-parking-six.jpg"><i class="pe-7s-search"></i></a>
+					                                    <span>Short Truck</span>
+								    				</figcaption>
+								    			</figure>
+							    			</div>
+							    		</div>
+							    		<div class="col-md-4 col-sm-6 col-xs-12">
+							    			<div class="single_truck">
+								    			<figure>
+								    				<a href="#"><img src="images/on-parking-img/on-parking-twelve.jpg" alt=""></a>
+								    				<figcaption class="truck_photo_caption">
+					                                    <a data-gall="gall-gallery" class="lightbox vbox-item" href="images/on-parking-img/on-parking-twelve.jpg"><i class="pe-7s-search"></i></a>
+					                                    <span>Short Truck</span>
+								    				</figcaption>
+								    			</figure>
+							    			</div>
+							    		</div>
+							    	</div>
+							    </div>
+							    <div role="tabpanel" class="tab-pane" id="long-truct">
+							    	<div class="row">
+							    		<div class="col-md-4 col-sm-6 col-xs-12">
+							    			<div class="single_truck">
+								    			<figure>
+								    				<a href="#"><img src="images/on-parking-img/on-parking-ten.jpg" alt=""></a>
+								    				<figcaption class="truck_photo_caption">
+					                                    <a data-gall="gall-gallery" class="lightbox vbox-item" href="images/on-parking-img/on-parking-ten.jpg"><i class="pe-7s-search"></i></a>
+					                                    <span>Long Truck</span>
+								    				</figcaption>
+								    			</figure>
+							    			</div>
+							    		</div>
+							    		<div class="col-md-4 col-sm-6 col-xs-12">
+							    			<div class="single_truck">
+								    			<figure>
+								    				<a href="#"><img src="images/on-parking-img/on-parking-eleven.jpg" alt=""></a>
+								    				<figcaption class="truck_photo_caption">
+					                                    <a data-gall="gall-gallery" class="lightbox vbox-item" href="images/on-parking-img/on-parking-eleven.jpg"><i class="pe-7s-search"></i></a>
+					                                    <span>Long Truck</span>
+								    				</figcaption>
+								    			</figure>
+							    			</div>
+							    		</div>
+							    		<div class="col-md-4 col-sm-6 col-xs-12">
+							    			<div class="single_truck">
+								    			<figure>
+								    				<a href="#"><img src="images/on-parking-img/on-parking-twelve.jpg" alt=""></a>
+								    				<figcaption class="truck_photo_caption">
+					                                    <a data-gall="gall-gallery" class="lightbox vbox-item" href="images/on-parking-img/on-parking-twelve.jpg"><i class="pe-7s-search"></i></a>
+					                                    <span>Long Truck</span>
+								    				</figcaption>
+								    			</figure>
+							    			</div>
+							    		</div>
+							    	</div>
+							    </div>
+							    <div role="tabpanel" class="tab-pane" id="heavy-load">
+							    	<div class="row">
+							    		<div class="col-md-4 col-sm-6 col-xs-12">
+							    			<div class="single_truck">
+								    			<figure>
+								    				<a href="#"><img src="images/on-parking-img/on-parking-nine.jpg" alt=""></a>
+								    				<figcaption class="truck_photo_caption">
+					                                    <a data-gall="gall-gallery" class="lightbox vbox-item" href="images/on-parking-img/on-parking-nine.jpg"><i class="pe-7s-search"></i></a>
+					                                    <span>Heavy Truck</span>
+								    				</figcaption>
+								    			</figure>
+							    			</div>
+							    		</div>
+							    		<div class="col-md-4 col-sm-6 col-xs-12">
+							    			<div class="single_truck">
+								    			<figure>
+								    				<a href="#"><img src="images/on-parking-img/on-parking-three.jpg" alt=""></a>
+								    				<figcaption class="truck_photo_caption">
+					                                    <a data-gall="gall-gallery" class="lightbox vbox-item" href="images/on-parking-img/on-parking-three.jpg"><i class="pe-7s-search"></i></a>
+					                                    <span>Heavy Truck</span>
+								    				</figcaption>
+								    			</figure>
+							    			</div>
+							    		</div>
+							    		<div class="col-md-4 col-sm-6 col-xs-12">
+							    			<div class="single_truck">
+								    			<figure>
+								    				<a href="#"><img src="images/on-parking-img/on-parking-twelve.jpg" alt=""></a>
+								    				<figcaption class="truck_photo_caption">
+					                                    <a data-gall="gall-gallery" class="lightbox vbox-item" href="images/on-parking-img/on-parking-twelve.jpg"><i class="pe-7s-search"></i></a>
+					                                    <span>Heavy Truck</span>
+								    				</figcaption>
+								    			</figure>
+							    			</div>
+							    		</div>
+							    	</div>
+							    </div>
+							    <div role="tabpanel" class="tab-pane" id="liquid-carrier">
+							    	<div class="row">
+							    		<div class="col-md-4 col-sm-6 col-xs-12">
+							    			<div class="single_truck">
+								    			<figure>
+								    				<a href="#"><img src="images/on-parking-img/on-parking-four.jpg" alt=""></a>
+								    				<figcaption class="truck_photo_caption">
+					                                    <a data-gall="gall-gallery" class="lightbox vbox-item" href="images/on-parking-img/on-parking-four.jpg"><i class="pe-7s-search"></i></a>
+					                                    <span>Liquid Truck</span>
+								    				</figcaption>
+								    			</figure>
+							    			</div>
+							    		</div>
+							    		<div class="col-md-4 col-sm-6 col-xs-12">
+							    			<div class="single_truck">
+								    			<figure>
+								    				<a href="#"><img src="images/on-parking-img/on-parking-eleven.jpg" alt=""></a>
+								    				<figcaption class="truck_photo_caption">
+					                                    <a data-gall="gall-gallery" class="lightbox vbox-item" href="images/on-parking-img/on-parking-eleven.jpg"><i class="pe-7s-search"></i></a>
+					                                    <span>Liquid Truck</span>
+								    				</figcaption>
+								    			</figure>
+							    			</div>
+							    		</div>
+							    		<div class="col-md-4 col-sm-6 col-xs-12">
+							    			<div class="single_truck">
+								    			<figure>
+								    				<a href="#"><img src="images/on-parking-img/on-parking-six.jpg" alt=""></a>
+								    				<figcaption class="truck_photo_caption">
+					                                    <a data-gall="gall-gallery" class="lightbox vbox-item" href="images/on-parking-img/on-parking-six.jpg"><i class="pe-7s-search"></i></a>
+					                                    <span>Liquid Truck</span>
+								    				</figcaption>
+								    			</figure>
+							    			</div>
+							    		</div>
+							    	</div>
+							    </div>
+							  </div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-12">
+						<div class="pagination_number">
+							<nav class="content-center margin-top-70">
+							  <ul class="pagination">
+							    <li>
+							      <a href="#" aria-label="Previous">
+							        <span aria-hidden="true">Prev</span>
+							      </a>
+							    </li>
+							    <li  class="active"><a href="#">1</a></li>
+							    <li><a href="#">2</a></li>
+							    <li><a href="#">3</a></li>
+							    <li><a href="#">4</a></li>
+							    <li>
+							      <a href="#" aria-label="Next">
+							        <span aria-hidden="true">Next</span>
+							      </a>
+							    </li>
+							  </ul>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		
+		<!-- Start Footer -->
+		<footer class="footer_area">
+			<div class="footer_top_area">
+				<div class="container">
+					<div class="footer_top_up">
+						<div class="row">
+							<div class="footer_widgets">
+								<div class="col-md-3 col-sm-6">
+									<div class="single_footer_widgets margin-top-95">
+										<h4 class="widget_title">contact Us</h4>
+										<ul class="address_list">
+											<li>
+												<i><img src="images/map-location.png" alt=""></i>
+												<dl>
+													<dt>50 Main Design Street</dt>
+													<dd>Australia - Alabama 55455</dd>
+												</dl>
+											</li>
+											<li>
+												<i><img src="images/mobile-icon.png" alt=""></i>
+												<dl>
+													<dt>+1 (234) 5678 90,</dt>
+													<dd>+1 (098) 7654 32</dd>
+												</dl>
+											</li>
+											<li>
+												<i><img src="images/message-icon.png" alt=""></i>
+												<dl>
+													<dt>office@transport.com</dt>
+													<dd>info@transport.com</dd>
+												</dl>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="col-md-3 hidden-sm">
+									<div class="single_footer_widgets margin-top-95">
+										<h4 class="widget_title">Newsletter</h4>
+										<p>
+											Objectively innovate empowered manufactured
+										</p>
+										<form action="index.html" class="subscribe_form">
+	                                        <input type="text" placeholder="Email Address">
+	                                    </form>
+	                                    <span>
+	                                    	Holisticly predominate extensible testing procedures for reliable supply chains.
+	                                    </span>
+	                                    <ul class="footer_social_icons">
+	                                    	<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+	                                    	<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+	                                    	<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+	                                    	<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+	                                    	<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+	                                    </ul>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6">
+								<div class="single_footer_widgets margin-top-95">
+									<h4 class="widget_title">Industry Support</h4>
+									<ul class="industry_support">
+										<li><a href="#">Packaging options</a></li>
+										<li><a href="#">Land freight</a></li>
+										<li><a href="#">Ocean freight</a></li>
+										<li><a href="#">Air freight</a></li>
+										<li><a href="#">Contract logistics</a></li>
+										<li><a href="#">Experts support</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-md-3 hidden-sm hidden-xs">
+								<div class="single_footer_widgets">
+									<div class="footer_fixed_img">
+										<img src="images/footer_fixed_img.png" alt="">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="footer_top_bottom">
+						<div class="row">
+							<div class="col-md-3 hidden-sm">
+								<div class="single_footer_widgets margin-bottom-65">
+									<h4 class="widget_title">Our Twitter</h4>
+									<ul class="our_twitter">
+										<li>
+											<a href="#">@MAX Logistics</a> Completely synergize resource sucking relationships via premier 
+											<span>5 minutes ago</span>
+										</li>
+										<li>
+											<a href="#">@john</a> Completely pursue scalable customer service through sustainable potent portals after maintainable.
+											<span>2 days ago</span>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6">
+								<div class="single_footer_widgets margin-bottom-65">
+									<h4 class="widget_title">About Us</h4>
+									<ul class="about_us">
+										<li>
+											Seamlessly visualize quality intellectual capital without superior collaboration and idea-sharing. Holistically pontificate 
+										</li>
+										<li>
+											installed base portals after maintainable products. Proactively envisioned multimedia based expertise and cross-media
+										</li>
+										<li><a href="#">Read More <i class="fa fa-caret-right"></i></a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6">
+								<div class="single_footer_widgets margin-bottom-65">
+									<h4 class="widget_title">Useful Links</h4>
+									<ul class="industry_support">
+										<li><a href="#">Get a quote</a></li>
+										<li><a href="#">Contact us</a></li>
+										<li><a href="#">Customer relationship</a></li>
+										<li><a href="#">All services</a></li>
+										<li><a href="#">Warehousing</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-md-3 hidden-sm">
+								<div class="single_footer_widgets margin-bottom-65">
+									<img src="images/footer-logo.png" alt="footer logo">
+									<ul class="footer_copyright">
+										<li>Copyright © <a href="#">MAX.</a></li>
+										<li>All rights reserved. 2015</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer_bottom_area">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6 col-sm-6">
+							<div class="footer_bottom_left">
+								<nav>
+									<ul>
+										<li><a href="#">Privacy Policy</a></li>
+										<li><a href="#">News</a></li>
+										<li><a href="#">FAQ</a></li>
+										<li><a href="#">Support</a></li>
+									</ul>
+								</nav>
+							</div>
+						</div>
+						<div class="col-md-6 col-sm-6">
+							<div class="footer_bottom_right floatright">
+								<nav>
+									<ul>
+										<li><a href="#">Home</a></li>
+										<li><a href="#">About Us</a></li>
+										<li><a href="#">Services</a></li>
+										<li><a href="#">On Parking</a></li>
+										<li><a href="#">Contact Us</a></li>
+									</ul>
+								</nav>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- End Footer -->
+
+
+	
+		<!-- jQuery Latest version -->
+        <script src="js/vendor/jquery-1.11.3.min.js"></script>
+
+        <!-- Bootstrap JS -->
+        <script src="js/bootstrap.min.js"></script>
+        <!-- UIKIT JS -->
+        <script src="js/uikit.min.js"></script>
+
+        <!-- revolution slider js -->
+        <script src="js/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
+		<script src="js/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+
+        <!-- jQuery Counterup -->
+        <script src="js/jquery.counterup.min.js"></script>
+		
+		<!-- jQuery Waypoints -->
+        <script src="js/waypoints.min.js"></script>
+
+        <!-- jQuery owl carousel -->
+        <script src="js/owl.carousel.min.js"></script>
+
+        <!-- jQuery VenoBox -->
+        <script src="js/venobox.min.js"></script>
+
+        <!-- WOW Animation -->
+        <script src="js/wow.js"></script>
+           
+        <!--Activating WOW Animation only for modern browser-->
+        <!--[if !IE]><!-->
+            <script type="text/javascript">new WOW().init();</script>
+        <!--<![endif]-->
+
+        <!--Oh Yes, IE 9+ Supports animation, lets activate for IE 9+-->
+        <!--[if gte IE 9]>
+            <script type="text/javascript">new WOW().init();</script>
+        <![endif]-->		 
+
+        <!--Opacity & Other IE fix for older browser-->
+        <!--[if lte IE 8]>
+            <script type="text/javascript" src="js/ie-opacity-polyfill.js"></script>
+        <![endif]-->	    
+
+        <!-- jQuery main script -->
+        <script src="js/main.js"></script>
+  </body>
+</html>

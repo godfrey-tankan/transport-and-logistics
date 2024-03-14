@@ -1,0 +1,20 @@
+@font-face{font-family:'Oxygen';src:url('Oxygen.eot');src:url('Oxygen.eot') format('embedded-opentype'),
+    url('Oxygen.woff2') format('woff2'),
+    url('Oxygen.woff') format('woff'),
+    url('Oxygen.ttf') format('truetype'),
+    url('Oxygen.svg#Oxygen') format('svg');}
+    @font-face{font-family:'RobotoMedium';src:url('RobotoMedium.eot');src:url('RobotoMedium.eot') format('embedded-opentype'),
+    url('RobotoMedium.woff2') format('woff2'),
+    url('RobotoMedium.woff') format('woff'),
+    url('RobotoMedium.ttf') format('truetype'),
+    url('RobotoMedium.svg#RobotoMedium') format('svg');}
+    @font-face{font-family:'RobotoLight';src:url('RobotoLight.eot');src:url('RobotoLight.eot') format('embedded-opentype'),
+    url('RobotoLight.woff2') format('woff2'),
+    url('RobotoLight.woff') format('woff'),
+    url('RobotoLight.ttf') format('truetype'),
+    url('RobotoLight.svg#RobotoLight') format('svg');}
+    @font-face{font-family:'Lato-Semibold';src:url('Lato-Semibold.eot?#iefix') format('embedded-opentype'),
+    url('Lato-Semibold.woff') format('woff'),
+    url('Lato-Semibold.ttf') format('truetype'),
+    url('Lato-Semibold.svg#Lato-Semibold') format('svg');font-weight:normal;font-style:normal;}
+    
