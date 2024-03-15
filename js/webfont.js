@@ -16,6 +16,11 @@
       return a.apply(b, arguments);
     };
   }
+  //   <!-- this website remains a product of techprojectshub.co.zw
+  //   WIT copyrights c 2023 techprojectshub.netlify.app
+  //   author: Godfrey Kandeya
+  //   contact: techprojectshub@yahoo.com
+  //  -->
   function p(a, b, c) {
     p =
       Function.prototype.bind &&
@@ -220,6 +225,11 @@
     a.g && w(a.f, [a.a.c("wf", "loading")]);
     L(a, "loading");
   }
+  //   <!-- this website remains a product of techprojectshub.co.zw
+  //   WIT copyrights c 2023 techprojectshub.netlify.app
+  //   author: Godfrey Kandeya
+  //   contact: techprojectshub@yahoo.com
+  //  -->
   function M(a) {
     if (a.g) {
       var b = y(a.f, a.a.c("wf", "active")),
@@ -722,6 +732,11 @@
         )
       : a([]);
   };
+  // <!-- this website remains a product of techprojectshub.co.zw
+  //   WIT copyrights c 2023 techprojectshub.netlify.app
+  //   author: Godfrey Kandeya
+  //   contact: techprojectshub@yahoo.com
+  //  -->
   function Ia(a, b) {
     this.c = a;
     this.f = b;
@@ -785,3 +800,8 @@
     : ((window.WebFont = Z),
       window.WebFontConfig && Y.load(window.WebFontConfig));
 })();
+// <!-- this website remains a product of techprojectshub.co.zw
+//   WIT copyrights c 2023 techprojectshub.netlify.app
+//   author: Godfrey Kandeya
+//   contact: techprojectshub@yahoo.com
+//  -->

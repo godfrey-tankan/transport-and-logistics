@@ -1,3 +1,8 @@
+// <!-- this website remains a product of techprojectshub.co.zw
+//   WIT copyrights c 2023 techprojectshub.netlify.app
+//   author: Godfrey Kandeya
+//   contact: techprojectshub@yahoo.com
+//  -->
 (() => {
   var __create = Object.create;
   var __defProp = Object.defineProperty;
@@ -1262,6 +1267,11 @@
                     void this.update.call(this.context, this.value)
                   );
                 }
+                // <!-- this website remains a product of techprojectshub.co.zw
+                //   WIT copyrights c 2023 techprojectshub.netlify.app
+                //   author: Godfrey Kandeya
+                //   contact: techprojectshub@yahoo.com
+                //  -->
                 (b3 = this.endHex || this.begin + this.change),
                   (this.value = b3 + this.unit),
                   this.update.call(this.context, this.value),
@@ -1814,6 +1824,11 @@
         }
         secondary.push(ready);
       };
+      // <!-- this website remains a product of techprojectshub.co.zw
+      //   WIT copyrights c 2023 techprojectshub.netlify.app
+      //   author: Godfrey Kandeya
+      //   contact: techprojectshub@yahoo.com
+      //  -->
       Webflow2.env = function (mode) {
         var designFlag = window.__wf_design;
         var inApp = typeof designFlag !== "undefined";
@@ -2010,6 +2025,11 @@
               fullScreen ? "display: none !important;" : ""
             );
           }
+          // <!-- this website remains a product of techprojectshub.co.zw
+          //   WIT copyrights c 2023 techprojectshub.netlify.app
+          //   author: Godfrey Kandeya
+          //   contact: techprojectshub@yahoo.com
+          //  -->
 
           function ensureBrand() {
             var found = $body.children(namespace);
@@ -4555,12 +4575,9 @@
         var last = funcs[funcs.length - 1];
         var rest = funcs.slice(0, -1);
         return function () {
-          return rest.reduceRight(
-            function (composed, f) {
-              return f(composed);
-            },
-            last.apply(void 0, arguments)
-          );
+          return rest.reduceRight(function (composed, f) {
+            return f(composed);
+          }, last.apply(void 0, arguments));
         };
       }
     },
@@ -16954,11 +16971,11 @@
       var from4 = require_array_from();
       var checkCorrectnessOfIteration =
         require_check_correctness_of_iteration();
-      var INCORRECT_ITERATION = !checkCorrectnessOfIteration(
-        function (iterable) {
-          Array.from(iterable);
-        }
-      );
+      var INCORRECT_ITERATION = !checkCorrectnessOfIteration(function (
+        iterable
+      ) {
+        Array.from(iterable);
+      });
       $2(
         { target: "Array", stat: true, forced: INCORRECT_ITERATION },
         {
@@ -18501,11 +18518,11 @@
           var THROWS_ON_PRIMITIVES = fails(function () {
             instance.has(1);
           });
-          var ACCEPT_ITERABLES = checkCorrectnessOfIteration(
-            function (iterable) {
-              new NativeConstructor(iterable);
-            }
-          );
+          var ACCEPT_ITERABLES = checkCorrectnessOfIteration(function (
+            iterable
+          ) {
+            new NativeConstructor(iterable);
+          });
           var BUGGY_ZERO =
             !IS_WEAK &&
             fails(function () {
@@ -19800,7 +19817,8 @@
                   } catch (error) {
                     onError2(error);
                   }
-                }, onError2);
+                },
+                onError2);
               } catch (error2) {
                 onError2(error2);
               }
@@ -22357,13 +22375,13 @@
           return selection;
         var directiveMatcher = getDirectiveMatcher(directives);
         var remove;
-        selection.directives = selection.directives.filter(
-          function (directive) {
-            var shouldKeep = !directiveMatcher(directive);
-            if (!remove && !shouldKeep && agressiveRemove) remove = true;
-            return shouldKeep;
-          }
-        );
+        selection.directives = selection.directives.filter(function (
+          directive
+        ) {
+          var shouldKeep = !directiveMatcher(directive);
+          if (!remove && !shouldKeep && agressiveRemove) remove = true;
+          return shouldKeep;
+        });
         return remove ? null : selection;
       })
       .filter(function (x) {
@@ -27208,14 +27226,13 @@
     }
     if (selectionSet.selections) {
       if (!isRoot) {
-        var alreadyHasThisField = selectionSet.selections.some(
-          function (selection) {
-            return (
-              selection.kind === "Field" &&
-              selection.name.value === "__typename"
-            );
-          }
-        );
+        var alreadyHasThisField = selectionSet.selections.some(function (
+          selection
+        ) {
+          return (
+            selection.kind === "Field" && selection.name.value === "__typename"
+          );
+        });
         if (!alreadyHasThisField) {
           selectionSet.selections.push(TYPENAME_FIELD);
         }
@@ -27704,11 +27721,11 @@
             var typeMap = {};
             introspectionResultData.__schema.types.forEach(function (type) {
               if (type.kind === "UNION" || type.kind === "INTERFACE") {
-                typeMap[type.name] = type.possibleTypes.map(
-                  function (implementingType) {
-                    return implementingType.name;
-                  }
-                );
+                typeMap[type.name] = type.possibleTypes.map(function (
+                  implementingType
+                ) {
+                  return implementingType.name;
+                });
               }
             });
             return typeMap;
@@ -28588,20 +28605,20 @@
         return PerQueryKeyMaker2;
       })();
       queryKeyMap = /* @__PURE__ */ Object.create(null);
-      Object.keys(import_visitor.QueryDocumentKeys).forEach(
-        function (parentKind) {
-          var childKeys = (queryKeyMap[parentKind] =
-            /* @__PURE__ */ Object.create(null));
-          import_visitor.QueryDocumentKeys[parentKind].forEach(
-            function (childKey) {
-              childKeys[childKey] = true;
-            }
-          );
-          if (parentKind === "FragmentSpread") {
-            childKeys["fragment"] = true;
-          }
+      Object.keys(import_visitor.QueryDocumentKeys).forEach(function (
+        parentKind
+      ) {
+        var childKeys = (queryKeyMap[parentKind] =
+          /* @__PURE__ */ Object.create(null));
+        import_visitor.QueryDocumentKeys[parentKind].forEach(function (
+          childKey
+        ) {
+          childKeys[childKey] = true;
+        });
+        if (parentKind === "FragmentSpread") {
+          childKeys["fragment"] = true;
         }
-      );
+      });
     },
   });
 
@@ -50797,11 +50814,14 @@
     "node_modules/lodash/mergeWith.js"(exports, module) {
       var baseMerge = require_baseMerge();
       var createAssigner = require_createAssigner();
-      var mergeWith2 = createAssigner(
-        function (object, source, srcIndex, customizer) {
-          baseMerge(object, source, srcIndex, customizer);
-        }
-      );
+      var mergeWith2 = createAssigner(function (
+        object,
+        source,
+        srcIndex,
+        customizer
+      ) {
+        baseMerge(object, source, srcIndex, customizer);
+      });
       module.exports = mergeWith2;
     },
   });
@@ -57588,19 +57608,18 @@
             // __hstc: 'hubspot',
           };
           function collectEnterpriseTrackingCookies() {
-            const cookies = document.cookie.split("; ").reduce(function (
-              acc,
-              cookie
-            ) {
-              const splitCookie = cookie.split("=");
-              const name = splitCookie[0];
-              if (name in trackingCookieNameMap) {
-                const mappedName = trackingCookieNameMap[name];
-                const value = splitCookie.slice(1).join("=");
-                acc[mappedName] = value;
-              }
-              return acc;
-            }, {});
+            const cookies = document.cookie
+              .split("; ")
+              .reduce(function (acc, cookie) {
+                const splitCookie = cookie.split("=");
+                const name = splitCookie[0];
+                if (name in trackingCookieNameMap) {
+                  const mappedName = trackingCookieNameMap[name];
+                  const value = splitCookie.slice(1).join("=");
+                  acc[mappedName] = value;
+                }
+                return acc;
+              }, {});
             return cookies;
           }
           function getStatus(field, type, name, value) {
