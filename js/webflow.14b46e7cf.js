@@ -1,8 +1,3 @@
-// <!-- this website remains a product of techprojectshub.co.zw
-//   WIT copyrights c 2023 techprojectshub.netlify.app
-//   author: Godfrey Kandeya
-//   contact: techprojectshub@yahoo.com
-//  -->
 (() => {
   var __create = Object.create;
   var __defProp = Object.defineProperty;
@@ -1267,11 +1262,6 @@
                     void this.update.call(this.context, this.value)
                   );
                 }
-                // <!-- this website remains a product of techprojectshub.co.zw
-                //   WIT copyrights c 2023 techprojectshub.netlify.app
-                //   author: Godfrey Kandeya
-                //   contact: techprojectshub@yahoo.com
-                //  -->
                 (b3 = this.endHex || this.begin + this.change),
                   (this.value = b3 + this.unit),
                   this.update.call(this.context, this.value),
@@ -1824,11 +1814,6 @@
         }
         secondary.push(ready);
       };
-      // <!-- this website remains a product of techprojectshub.co.zw
-      //   WIT copyrights c 2023 techprojectshub.netlify.app
-      //   author: Godfrey Kandeya
-      //   contact: techprojectshub@yahoo.com
-      //  -->
       Webflow2.env = function (mode) {
         var designFlag = window.__wf_design;
         var inApp = typeof designFlag !== "undefined";
@@ -2025,11 +2010,6 @@
               fullScreen ? "display: none !important;" : ""
             );
           }
-          // <!-- this website remains a product of techprojectshub.co.zw
-          //   WIT copyrights c 2023 techprojectshub.netlify.app
-          //   author: Godfrey Kandeya
-          //   contact: techprojectshub@yahoo.com
-          //  -->
 
           function ensureBrand() {
             var found = $body.children(namespace);
